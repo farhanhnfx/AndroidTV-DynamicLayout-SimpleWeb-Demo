@@ -155,9 +155,12 @@ function _applySlideshow(el, obj) {
   // Tampilkan gambar pertama sebagai pratinjau (jika ada)
   const firstImgObj = obj.images && obj.images[0];
   let src = '';
-  if (firstImgObj && firstImgObj.source && !firstImgObj.source.includes('%') && !firstImgObj.source.includes('placeholder')) {
-    src = firstImgObj.source;
+  if (firstImgObj) {
+    src = firstImgObj;
   }
+  // if (firstImgObj && firstImgObj.source && !firstImgObj.source.includes('%') && !firstImgObj.source.includes('placeholder')) {
+  //   src = firstImgObj.source;
+  // }
 
   if (src) {
     const img = document.createElement('img');

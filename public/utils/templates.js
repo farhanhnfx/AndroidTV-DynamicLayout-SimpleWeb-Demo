@@ -29,30 +29,22 @@ export function createTemplate(componentType, layerIndex = 0) {
       radius_corner: 0,
       background: { background_color: '#6d1810', background_color_from_template: false },
       hover_color: '#6d1810', hover_opacity: 1, hover_color_from_template: false,
-      parameter_source: 'menu', parameter_source_value: '',
-      multilanguage: [],
+      parameter_source: 'menu', parameter_source_value: ''
     }),
 
     Image: () => ({
       id: uid('Image'), component: 'Image',
       transform: baseTransform(50, 50, 200, 150, li),
-      source_asli: '', source: 'media/img/', string_dynamic: null,
+      source: 'media/img/', string_dynamic: null,
       parameter_source: 'menu', parameter_source_value: '',
-      scale_type: 'center_crop', radius_corner: 0,
-      multilanguage: [{
-        lg_id: '1', source: '', stringDynamic: null,
-        parameterSource: 'menu', parameterSourceValue: '',
-        width: 200, height: 150,
-        raw: { width: 200, height: 150, scaleX: _SX, scaleY: _SX },
-      }],
+      scale_type: 'center_crop', radius_corner: 0
     }),
 
     Text: () => ({
       id: uid('Text'), component: 'Text',
       transform: baseTransform(50, 50, 300, 50, li),
       text: 'New Text', text_align: 'left',
-      font: { font_color: '#ffffff', font_size: 32, font_family: 'Roboto', font_weight: 'normal', font_style: 'normal' },
-      multilanguage: [{ lg_id: '1', text: 'New Text', width: 300, height: 50 }],
+      font: { font_color: '#ffffff', font_size: 32, font_family: 'Roboto', font_weight: 'normal', font_style: 'normal' }
     }),
 
     TextDynamic: () => ({
@@ -61,20 +53,14 @@ export function createTemplate(componentType, layerIndex = 0) {
       scroll_direction: 'Horizontal', scroll_speed: 100,
       parameter_source: 'menu', parameter_source_value: '',
       text: '%device/guestname%', text_align: 'left',
-      font: { font_color: '#ffffff', font_size: 32, font_family: 'Roboto', font_opacity: 1, font_weight: 'normal', font_style: 'normal' },
-      metadata: {
-        textDynamicId: '', layerIndex: li, scrollDirection: 'Horizontal', scrollSpeed: 100,
-        parameterSource: 'menu', parameterSourceValue: '', multilanguage: [],
-      },
-      multilanguage: [{ lg_id: '1', text: '%device/guestname%', width: 300, height: 60 }],
+      font: { font_color: '#ffffff', font_size: 32, font_family: 'Roboto', font_opacity: 1, font_weight: 'normal', font_style: 'normal' }
     }),
 
     RunningText: () => ({
       id: uid('RunningText'), component: 'RunningText',
       transform: baseTransform(0, 1012, 1920, 41, li),
       scroll_speed: 100,
-      font: { font_color: '#ffffff', font_size: 36, font_family: 'Roboto', font_weight: 'normal', font_style: 'normal' },
-      multilanguage: [],
+      font: { font_color: '#ffffff', font_size: 36, font_family: 'Roboto', font_weight: 'normal', font_style: 'normal' }
     }),
 
     Clock: () => ({
@@ -109,10 +95,9 @@ export function createTemplate(componentType, layerIndex = 0) {
     Video: () => ({
       id: uid('Video'), component: 'Video',
       transform: baseTransform(0, 0, 1920, 1080, li),
-      source_asli: '', source: 'media/video/', string_dynamic: null,
+      source: 'media/video/', string_dynamic: null,
       is_streaming: 0, is_looping: '1', is_mute: '0',
-      parameter_source: 'menu', parameter_source_value: '',
-      multilanguage: [{ lg_id: '1', source: '', stringDynamic: null, isStreaming: 0 }],
+      parameter_source: 'menu', parameter_source_value: ''
     }),
 
     Button: () => {
@@ -145,15 +130,13 @@ export function createTemplate(componentType, layerIndex = 0) {
           {
             id: uid('Button_Image'), component: 'Button_Image',
             transform: { x: 405, y: 768, width: 113, height: 113, layer_index: -1, opacity: 1, raw: { width: 264, height: 264, scaleX: 0.75, scaleY: 0.75 } },
-            source_asli: '', source: 'media/icon/png/', string_dynamic: null, parameter_source: 'menu', parameter_source_value: '',
-            multilanguage: [{ lg_id: '1', source: '', stringDynamic: null, parameterSource: 'menu', parameterSourceValue: '', width: 113, height: 113, raw: { width: 264, height: 264, scaleX: 0.75, scaleY: 0.75 } }],
+            source: 'media/icon/png/', string_dynamic: null, parameter_source: 'menu', parameter_source_value: ''
           },
           {
             id: uid('Button_Text'), component: 'Button_Text',
             transform: { x: 390, y: 900, width: 145, height: 32, layer_index: -1, opacity: 1, raw: { width: 145, height: 32, scaleX: _SX, scaleY: _SX } },
             text: 'Button', text_align: 'center',
-            font: { font_color: '#ffffff', font_size: 28, font_family: 'Roboto', font_weight: 'normal', font_style: 'normal' },
-            multilanguage: [{ lg_id: '1', text: 'Button', width: 145, height: 32 }],
+            font: { font_color: '#ffffff', font_size: 28, font_family: 'Roboto', font_weight: 'normal', font_style: 'normal' }
           },
         ],
       };
@@ -213,42 +196,9 @@ export function createTemplate(componentType, layerIndex = 0) {
       controllable: false,
       background: { background_color: '#000000' },
       images: [
-        {
-          id: uid('Image'),
-          component: 'Image',
-          transform: { x: 0, y: 0, width: 400, height: 400, layer_index: 7, opacity: 1, raw: { width: 628.2352941176471, height: 720, scaleX: 1.2624709998479902, scaleY: 1.2624709998479902 } },
-          source: 'media/img/alana_gm.png',
-          string_dynamic: null,
-          parameter_source: 'menu',
-          parameter_source_value: '',
-          multilanguage: []
-        },
-        {
-          id: uid('Image'),
-          component: 'Image',
-          transform: { x: 0, y: 0, width: 400, height: 400, layer_index: 7, opacity: 1, raw: { width: 628.2352941176471, height: 720, scaleX: 1.2624709998479902, scaleY: 1.2624709998479902 } },
-          source: 'https://asset.kompas.com/crops/3xYktcut3GtTLSvS9iNgqM4e380=/0x0:1000x667/1200x800/data/photo/2023/05/06/645677f368fc1.jpg',
-          string_dynamic: null,
-          parameter_source: 'menu',
-          parameter_source_value: '',
-          multilanguage: []
-        },
-        {
-          id: uid('Image'),
-          component: 'Image',
-          transform: { x: 0, y: 0, width: 400, height: 400, layer_index: 7, opacity: 1, raw: { width: 628.2352941176471, height: 720, scaleX: 1.2624709998479902, scaleY: 1.2624709998479902 } },
-          source: 'media/img/room3.png',
-          string_dynamic: null,
-          parameter_source: 'menu',
-          parameter_source_value: '',
-          multilanguage: []
-        }
-      ],
-      multilanguage: [
-        {
-          lg_id: '1',
-          images: []
-        }
+        "media/img/alana_gm.png", 
+        "https://asset.kompas.com/crops/3xYktcut3GtTLSvS9iNgqM4e380=/0x0:1000x667/1200x800/data/photo/2023/05/06/645677f368fc1.jpg",
+        "media/img/room3.png"
       ]
     }),
   };
@@ -258,8 +208,7 @@ export function createTemplate(componentType, layerIndex = 0) {
     // Fallback: generic unknown component
     return {
       id: uid(componentType), component: componentType,
-      transform: baseTransform(50, 50, 200, 100, layerIndex),
-      multilanguage: [],
+      transform: baseTransform(50, 50, 200, 100, layerIndex)
     };
   }
 

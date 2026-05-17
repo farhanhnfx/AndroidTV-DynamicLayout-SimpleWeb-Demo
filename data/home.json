@@ -24,7 +24,6 @@
           "scaleY": 1.2
         }
       },
-      "source_asli": "68c41ea93b991_bg.jpg?1758084081167",
       "source": "media/img/alana_background.png",
       "string_dynamic": null,
       "parameter_source": "menu",
@@ -112,7 +111,6 @@
           "scaleY": 0.7847679891244933
         }
       },
-      "source_asli": "68ca3107a07e3_the-alana-hotel-white.PNG?1758084097535",
       "sourcex": "https://cdn0.alanahotels.com/Images/v1/TheAlanaYogyakarta/Overview/Yogyakarta_White-03.svg",
       "source": "media/img/alana_logowhite.png",
       "string_dynamic": null,
@@ -510,7 +508,6 @@
           "scaleY": 0.6
         }
       },
-      "source_asli": "68ca4105c7470_qr-wifi.png?1758085673157",
       "source": "media/img/alana_qr.png",
       "string_dynamic": null,
       "parameter_source": "menu",
@@ -758,7 +755,6 @@
           "scaleY": 0.6
         }
       },
-      "source_asli": "68ca4105c7470_qr-wifi.png?1758085673157?1758085777575",
       "source": "media/img/alana_qr.png",
       "string_dynamic": null,
       "multilanguage": [
@@ -1070,7 +1066,6 @@
               "scaleY": 0.7500000000000004
             }
           },
-          "source_asli": "642ea206c3f79_tv.png?1758086240640",
           "source": "media/icon/png/wpf--retro-tv.png",
           "multilanguage": [
             {
@@ -1303,7 +1298,6 @@
               "scaleY": 0.49109291443850234
             }
           },
-          "source_asli": "64082698ebb57_63ab9d94105dcvidio256.png?1758086485428",
           "source": "media/icon/png/arcticons--vidio.png",
           "multilanguage": [
             {
@@ -1417,7 +1411,6 @@
           "scaleY": 0.033863636363636554
         }
       },
-      "source_asli": "%network/icon%",
       "source": "%network/icon%",
       "string_dynamic": "%network/icon%",
       "parameter_source": "menu",
@@ -1602,7 +1595,6 @@
               "scaleY": 0.5193536931818176
             }
           },
-          "source_asli": "63731080aa9c8_youtube.png?1758086564561",
           "source": "media/icon/png/ant-design--youtube-filled.png",
           "multilanguage": [
             {
@@ -1835,7 +1827,6 @@
               "scaleY": 0.43763473429144334
             }
           },
-          "source_asli": "6373105b10974_dining.png?1758087070523",
           "source": "media/icon/png/material-symbols--hand-meal-outline.png",
           "multilanguage": [
             {
@@ -2148,7 +2139,6 @@
               "scaleY": 0.4208096590909094
             }
           },
-          "source_asli": "637310630b0d4_hotel-info.png?1758087001712",
           "source": "media/icon/png/lucide--hotel.png",
           "multilanguage": [
             {
@@ -2381,7 +2371,6 @@
               "scaleY": 0.4223303810160443
             }
           },
-          "source_asli": "68ca4ee188e83_greeting.png",
           "source": "media/icon/png/la--praying-hands.png",
           "multilanguage": [
             {
@@ -2594,7 +2583,6 @@
               "scaleY": 0.75
             }
           },
-          "source_asli": "",
           "source": "media/icon/png/promo_icon.png",
           "string_dynamic": null,
           "parameter_source": "menu",

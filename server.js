@@ -443,6 +443,18 @@ app.get('/api/master-layouts', async (req, res) => {
     res.status(500).json({ status: false, message: e.message });
   }
 });
+ 
+// Alias: hanya kembalikan array layout tanpa file_mapping
+app.get('/api/layout', async (req, res) => {
+  try {
+    const data   = await kvGet(KEY_LAYOUTS) ?? readFallback('layouts.json');
+    const layout = data?.results?.layout ?? [];
+    res.json({ status: true, results: { layout } });
+  } catch (e) {
+    res.status(500).json({ status: false, message: e.message });
+  }
+});
+
 
 // ════════════════════════════════════════════════════════════════════════════════
 // MENU
@@ -456,6 +468,125 @@ app.get('/api/menu', async (req, res) => {
     res.status(500).json({ status: false, message: e.message });
   }
 });
+
+// ════════════════════════════════════════════════════════════════════════════════
+// MIGRASI FILE LOKAL → REDIS
+// Panggil sekali: POST /api/migrate
+// Setelah berhasil, route ini bisa dihapus atau diproteksi dengan secret key
+// ════════════════════════════════════════════════════════════════════════════════
+ 
+app.post('/api/migrate', async (req, res) => {
+  // Opsional: proteksi dengan secret key agar tidak bisa dipanggil sembarang orang
+  const { secret } = req.body;
+  if (secret !== process.env.MIGRATE_SECRET) return res.status(401).json({ status: false, message: 'Unauthorized' });
+ 
+  const fs      = require('fs');
+  const dataDir = path.join(__dirname, 'data');
+  const report  = { success: [], skipped: [], errors: [] };
+ 
+  try {
+    const files = fs.readdirSync(dataDir);
+ 
+    // ── 1. menu.json ────────────────────────────────────────────────
+    if (files.includes('menu.json')) {
+      try {
+        const menuData = JSON.parse(fs.readFileSync(path.join(dataDir, 'menu.json'), 'utf8'));
+        await kvSet(KEY_MENUS, menuData);
+        report.success.push('menu.json → ' + KEY_MENUS);
+      } catch (e) {
+        report.errors.push('menu.json: ' + e.message);
+      }
+    }
+ 
+    // ── 2. roomlist.json ─────────────────────────────────────────────
+    if (files.includes('roomlist.json')) {
+      try {
+        const roomData = JSON.parse(fs.readFileSync(path.join(dataDir, 'roomlist.json'), 'utf8'));
+        await kvSet(KEY_ROOMLIST, roomData);
+        report.success.push('roomlist.json → ' + KEY_ROOMLIST);
+      } catch (e) {
+        report.errors.push('roomlist.json: ' + e.message);
+      }
+    }
+ 
+    // ── 3. Semua file layout (.json selain menu & roomlist) ──────────
+    const layoutFiles = files.filter(f =>
+      f.endsWith('.json') &&
+      f !== 'menu.json' &&
+      f !== 'roomlist.json' &&
+      f !== 'master_layouts.json'
+    );
+ 
+    const combinedLayouts = [];
+    const fileMappingCache = {};
+ 
+    layoutFiles.forEach(file => {
+      try {
+        const raw  = fs.readFileSync(path.join(dataDir, file), 'utf8');
+        const json = JSON.parse(raw);
+ 
+        // Format baru: { results: { layout: [...] } }
+        if (json.results && Array.isArray(json.results.layout)) {
+          json.results.layout.forEach(item => {
+            if (item.dm_id) {
+              combinedLayouts.push(item);
+              fileMappingCache[item.dm_id] = file;
+            }
+          });
+        }
+        // Format lama: objek layout langsung
+        else if (json.dm_id) {
+          combinedLayouts.push(json);
+          fileMappingCache[json.dm_id] = file;
+        }
+ 
+        report.success.push(file + ' → sdui:layouts');
+      } catch (e) {
+        report.errors.push(file + ': ' + e.message);
+        report.skipped.push(file);
+      }
+    });
+ 
+    if (combinedLayouts.length > 0) {
+      await kvSet(KEY_LAYOUTS, {
+        status: true,
+        results: { layout: combinedLayouts, file_mapping: fileMappingCache },
+      });
+    }
+ 
+    // ── 4. File items (dining_items.json, info_items.json, dll) ──────
+    const itemFiles = files.filter(f =>
+      f.endsWith('.json') &&
+      !['menu.json', 'roomlist.json'].includes(f) &&
+      combinedLayouts.every(l => fileMappingCache[l.dm_id] !== f) // skip layout files
+    );
+ 
+    for (const file of itemFiles) {
+      try {
+        const raw  = fs.readFileSync(path.join(dataDir, file), 'utf8');
+        const json = JSON.parse(raw);
+        // Hanya proses jika strukturnya { results: { items: [...] } }
+        if (json.results && Array.isArray(json.results.items)) {
+          const typeName = file.replace('.json', '');
+          await kvSet(`sdui:items:${typeName}`, json);
+          report.success.push(file + ' → sdui:items:' + typeName);
+        }
+      } catch (e) {
+        // Bukan file items — skip saja
+      }
+    }
+ 
+    res.json({
+      status: true,
+      message: `Migrasi selesai. ${report.success.length} berhasil, ${report.errors.length} error.`,
+      report,
+    });
+ 
+  } catch (e) {
+    res.status(500).json({ status: false, message: e.message, report });
+  }
+});
+
 
 // ════════════════════════════════════════════════════════════════════════════════
 // SAVE CONFIG

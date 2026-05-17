@@ -35,76 +35,10 @@
       "background": {
         "background_color": "#000000"
       },
-      "images": [
-        {
-          "id": "Image_m9yws",
-          "component": "Image",
-          "transform": {
-            "x": 0,
-            "y": 0,
-            "width": 400,
-            "height": 400,
-            "layer_index": 7,
-            "opacity": 1,
-            "raw": {
-              "width": 628.2352941176471,
-              "height": 720,
-              "scaleX": 1.2624709998479902,
-              "scaleY": 1.2624709998479902
-            }
-          },
-          "source": "media/img/alana_gm.png",
-          "string_dynamic": null,
-          "parameter_source": "menu",
-          "parameter_source_value": "",
-          "multilanguage": []
-        },
-        {
-          "id": "Image_m9yws",
-          "component": "Image",
-          "transform": {
-            "x": 0,
-            "y": 0,
-            "width": 400,
-            "height": 400,
-            "layer_index": 7,
-            "opacity": 1,
-            "raw": {
-              "width": 628.2352941176471,
-              "height": 720,
-              "scaleX": 1.2624709998479902,
-              "scaleY": 1.2624709998479902
-            }
-          },
-          "source": "https://asset.kompas.com/crops/3xYktcut3GtTLSvS9iNgqM4e380=/0x0:1000x667/1200x800/data/photo/2023/05/06/645677f368fc1.jpg",
-          "string_dynamic": null,
-          "parameter_source": "menu",
-          "parameter_source_value": "",
-          "multilanguage": []
-        },
-        {
-          "id": "Image_m9yws",
-          "component": "Image",
-          "transform": {
-            "x": 0,
-            "y": 0,
-            "width": 400,
-            "height": 400,
-            "layer_index": 7,
-            "opacity": 1,
-            "raw": {
-              "width": 628.2352941176471,
-              "height": 720,
-              "scaleX": 1.2624709998479902,
-              "scaleY": 1.2624709998479902
-            }
-          },
-          "source": "media/img/room3.png",
-          "string_dynamic": null,
-          "parameter_source": "menu",
-          "parameter_source_value": "",
-          "multilanguage": []
-        }
+      "images": [ 
+        "media/img/alana_gm.png", 
+        "https://asset.kompas.com/crops/3xYktcut3GtTLSvS9iNgqM4e380=/0x0:1000x667/1200x800/data/photo/2023/05/06/645677f368fc1.jpg",
+        "media/img/room3.png"
       ],
       "multilanguage": [
         {

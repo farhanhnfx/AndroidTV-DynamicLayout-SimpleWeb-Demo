@@ -24,7 +24,6 @@
           "scaleY": 1.2
         }
       },
-      "source_asli": "68c41ea93b991_bg.jpg?1758080266235",
       "source": "media/img/alana_background.png",
       "string_dynamic": null,
       "parameter_source": "menu",
@@ -90,7 +89,6 @@
           "scaleY": 0.7659734858267744
         }
       },
-      "source_asli": "68ca3107a07e3_the-alana-hotel-white.PNG",
       "source": "media/img/alana_logowhite.png",
       "string_dynamic": null,
       "parameter_source": "menu",
@@ -360,7 +358,6 @@
           "scaleY": 1.2624709998479902
         }
       },
-      "source_asli": "68ca39df1e5ac_dummy-guest.jpg",
       "source": "media/img/alana_gm.png",
       "string_dynamic": null,
       "parameter_source": "menu",
