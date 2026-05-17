@@ -1,107 +1,3 @@
-// const express = require('express');
-// const path = require('path');
-
-// const start = require('./data/start.json');
-// const welcome = require('./data/welcome.json');
-// const home = require('./data/home.json');
-// const dining = require('./data/dining.json')
-// const hotelinfo = require('./data/hotelinfo.json')
-// const greetings = require('./data/gm_greeting.json')
-
-// const menu = require('./data/menu.json');
-// const roomlist = require('./data/roomlist.json');
-
-// const diningItems = require('./data/grid/dining_items.json')
-// const diningCategories = require('./data/grid/dining_categories.json')
-// const hotelInfoItems = require('./data/grid/info_items.json')
-
-// const app = express();
-// const HOSTNAME = "192.168.100.56"
-// const PORT = 3000;
-
-// app.use(express.static(path.join(__dirname, 'public')));
-
-// const layout = {
-//   "status": true,
-//   "results": {
-//     "layout": [start, welcome, home, dining, hotelinfo, greetings]
-//   }
-// } 
-
-// app.get('/api/start-page', (req, res) => {
-//   res.json(start);
-// });
-
-// app.get('/api/welcome-page', (req, res) => {
-//   res.json(welcome);
-// });
-
-// app.get('/api/home-page', (req, res) => {
-//   res.json(home);
-// });
-
-// app.get('/api/layout', (req, res) => {
-//   res.json(layout);
-// });
-
-// app.get('/api/menu', (req, res) => {
-//   res.json(menu);
-// })
-
-// app.get('/api/room-list', (req, res) => {
-//   res.json(roomlist);
-// })
-
-// app.get('/api/room-list/:device', (req, res) => {
-//   const { device } = req.params;
-
-//   const rooms = roomlist?.results?.room_list || [];
-
-//   const room = rooms.find(r => r.device == device);
-
-//   return res.status(room ? 200 : 404).json({
-//     status: true,
-//     message: room ? undefined : 'Device not found',
-//     results: {
-//       room_list: room ? [room] : []
-//     }
-//   });
-// });
-
-// app.get('/api/items/:content_type', (req, res) => {
-//   const { content_type } = req.params;
-//   let items = []
-//   if (content_type == 'dining_items') {
-//     items = diningItems.items
-//   }
-//   else if (content_type == 'dining_categories') {
-//     items = diningCategories.items
-//   }
-//   else if (content_type == 'info_items') {
-//     items = hotelInfoItems.items
-//   }
-
-//   return res.status( items ? 200: 404 ).json({
-//     status: true,
-//     message: 'Dining Items Information',
-//     results: {
-//       items
-//     }
-//   })
-// })
-
-// // Serve static media folder
-// app.use('/media', express.static(path.join(__dirname, 'media')));
-
-// // app.listen(PORT, () => {
-// //   console.log(`Server running at port:${PORT}`);
-// // });
-
-// app.listen(PORT, HOSTNAME, () => {
-//   console.log(`Server running at ${HOSTNAME}:${PORT}`);
-// });
-
-
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
@@ -402,6 +298,10 @@ app.delete('/api/room-list/:device', (req, res) => {
 });
 
 
-app.listen(PORT, HOSTNAME, () => {
-    console.log(`Server running at http://${HOSTNAME}:${PORT}`);
+// app.listen(PORT, HOSTNAME, () => {
+//     console.log(`Server running at http://${HOSTNAME}:${PORT}`);
+// });
+
+app.listen(PORT, () => {
+    // console.log(`Server running at http://${HOSTNAME}:${PORT}`);
 });
