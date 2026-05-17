@@ -1,0 +1,194 @@
+{
+  "status": true,
+  "results": {
+    "menus": [
+      {
+        "menu_category": "All",
+        "order": 1,
+        "menu": [
+          {
+            "dm_id": "1",
+            "name": "Start",
+            "package_name_tv": "",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": true,
+            "update_interval": "1",
+            "allow_back": "0",
+            "dm_type": "static"
+          },
+          {
+            "dm_id": "11",
+            "name": "Welcome Greeting",
+            "package_name_tv": "",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": true,
+            "update_interval": "1",
+            "allow_back": "0",
+            "dm_type": "dynamic"
+          },
+          {
+            "dm_id": "2",
+            "name": "Home",
+            "package_name_tv": "",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": true,
+            "update_interval": "1",
+            "allow_back": "0",
+            "dm_type": "dynamic"
+          },
+          {
+            "dm_id": "4",
+            "name": "TV Channels",
+            "package_name_tv": "",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": true,
+            "update_interval": "0",
+            "allow_back": "1",
+            "dm_type": "static"
+          },
+          {
+            "dm_id": "12",
+            "name": "Vidio",
+            "package_name_tv": "com.vidio.android.tv",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": false,
+            "update_interval": "0",
+            "allow_back": "1",
+            "dm_type": "apps"
+          },
+          {
+            "dm_id": "10",
+            "name": "YouTube",
+            "package_name_tv": "com.google.android.youtube.tv",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": false,
+            "update_interval": "0",
+            "allow_back": "1",
+            "dm_type": "apps"
+          },
+          {
+            "dm_id": "5",
+            "name": "Hotel Information",
+            "package_name_tv": "",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": true,
+            "update_interval": "1",
+            "allow_back": "1",
+            "dm_type": "dynamic"
+          },
+          {
+            "dm_id": "3",
+            "name": "In-Room Dining",
+            "package_name_tv": "",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": false,
+            "update_interval": "0",
+            "allow_back": "1",
+            "dm_type": "static"
+          },
+          {
+            "dm_id": "9",
+            "name": "Nearby",
+            "package_name_tv": "",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": true,
+            "update_interval": "1",
+            "allow_back": "1",
+            "dm_type": "dynamic"
+          },
+          {
+            "dm_id": "6",
+            "name": "Setting",
+            "package_name_tv": "",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": true,
+            "update_interval": "14",
+            "allow_back": "1",
+            "dm_type": "static"
+          },
+          {
+            "dm_id": "13",
+            "name": "Idle",
+            "package_name_tv": "",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": true,
+            "update_interval": "1",
+            "allow_back": "1",
+            "dm_type": "dynamic"
+          },
+          {
+            "dm_id": "14",
+            "name": "Spotify",
+            "package_name_tv": "",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": false,
+            "update_interval": "0",
+            "allow_back": "1",
+            "dm_type": "apps"
+          },
+          {
+            "dm_id": "15",
+            "name": "Disney+",
+            "package_name_tv": "",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": false,
+            "update_interval": "0",
+            "allow_back": "1",
+            "dm_type": "apps"
+          },
+          {
+            "dm_id": "16",
+            "name": "Promotion",
+            "package_name_tv": "",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": true,
+            "update_interval": "1",
+            "allow_back": "1",
+            "dm_type": "dynamic"
+          },
+          {
+            "dm_id": "17",
+            "name": "GM Greeting",
+            "package_name_tv": "",
+            "apk_tv": null,
+            "apk_hash": "",
+            "persistent": false,
+            "auto_update": true,
+            "update_interval": "1",
+            "allow_back": "1",
+            "dm_type": "dynamic"
+          }
+        ]
+      }
+    ],
+    "clear_cache": false
+  }
+}

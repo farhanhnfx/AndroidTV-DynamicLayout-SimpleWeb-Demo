@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "id": "101",
+      "name_text": "Nasi Goreng Spesial",
+      "desc_text": "Nasi goreng dengan telur mata sapi, ayam suwir, dan kerupuk udang.",
+      "price_text": 45000,
+      "qty_text": 0,
+      "image": "https://asset.kompas.com/crops/3xYktcut3GtTLSvS9iNgqM4e380=/0x0:1000x667/1200x800/data/photo/2023/05/06/645677f368fc1.jpg",
+      "text_1": "",
+      "text_2": "",
+      "text_3": ""
+    },
+    {
+      "id": "102",
+      "name_text": "Ayam Bakar Madu",
+      "desc_text": "Ayam bakar bumbu madu autentik disajikan dengan sambal terasi.",
+      "price_text": 35000,
+      "qty_text": 0,
+      "image": "https://i.ytimg.com/vi/qVxXK5Yj8RY/maxresdefault.jpg",
+      "text_1": "",
+      "text_2": "",
+      "text_3": ""
+    },
+    {
+      "id": "103",
+      "name_text": "Sate Maranggi",
+      "desc_text": "10 tusuk sate ayam dengan bumbu kacang kental dan lontong.",
+      "price_text": 30000,
+      "qty_text": 0,
+      "image": "https://cdn.grid.id/crop/0x0:0x0/700x465/smart/filters:format(webp):quality(100)/photo/2023/05/16/resep-sate-ayam-madura-menu-tra-20230516022915.jpg",
+      "text_1": "",
+      "text_2": "",
+      "text_3": ""
+    }
+  ]
+}

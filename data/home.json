@@ -1,0 +1,2658 @@
+{
+  "dm_id": "2",
+  "layout_name": "The Alana Hotel - Home",
+  "scene": "The Alana Hotel - Home",
+  "base_layout": {
+    "width": "1920",
+    "height": "1080"
+  },
+  "objects": [
+    {
+      "id": "Image_ba7bl",
+      "component": "Image",
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080,
+        "layer_index": 0,
+        "opacity": 1,
+        "raw": {
+          "width": 2823.529411764706,
+          "height": 1588.235294117647,
+          "scaleX": 1.2,
+          "scaleY": 1.2
+        }
+      },
+      "source_asli": "68c41ea93b991_bg.jpg?1758084081167",
+      "source": "media/img/alana_background.png",
+      "string_dynamic": null,
+      "parameter_source": "menu",
+      "parameter_source_value": "",
+      "multilanguage": [
+        {
+          "lg_id": "2",
+          "source": "68c41ea93b991_bg.jpg",
+          "stringDynamic": null,
+          "width": 1599.9999999999998,
+          "height": 900,
+          "raw": {
+            "width": 2823.529411764706,
+            "height": 1588.235294117647,
+            "scaleX": 0.9999999999999999,
+            "scaleY": 0.9999999999999999
+          }
+        },
+        {
+          "lg_id": "1",
+          "source": "68c41ea93b991_bg.jpg?1758084081167",
+          "stringDynamic": null,
+          "parameterSource": "menu",
+          "parameterSourceValue": "",
+          "width": 1920,
+          "height": 1080,
+          "raw": {
+            "width": 2823.529411764706,
+            "height": 1588.235294117647,
+            "scaleX": 1.2,
+            "scaleY": 1.2
+          }
+        },
+        {
+          "lg_id": "18",
+          "source": "68c41ea93b991_bg.jpg",
+          "stringDynamic": null,
+          "width": 1599.9999999999998,
+          "height": 900,
+          "raw": {
+            "width": 2823.529411764706,
+            "height": 1588.235294117647,
+            "scaleX": 0.9999999999999999,
+            "scaleY": 0.9999999999999999
+          }
+        }
+      ]
+    },
+    {
+      "id": "Rectangle_eflqt",
+      "component": "Rectangle",
+      "transform": {
+        "x": 0,
+        "y": 30.000000000000025,
+        "width": 480,
+        "height": 163.63636363636363,
+        "layer_index": 1,
+        "opacity": 1,
+        "raw": {
+          "width": 480,
+          "height": 163.63636363636363,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "radius_corner": 0,
+      "background": {
+        "background_color": "#6d1810"
+      }
+    },
+    {
+      "id": "Image_6h9ah",
+      "component": "Image",
+      "transform": {
+        "x": 68.18181818181803,
+        "y": 53.96039011203465,
+        "width": 328.0330194540382,
+        "height": 113.00659043392703,
+        "layer_index": 2,
+        "opacity": 1,
+        "raw": {
+          "width": 737.6470588235294,
+          "height": 254.11764705882354,
+          "scaleX": 0.7847679891244933,
+          "scaleY": 0.7847679891244933
+        }
+      },
+      "source_asli": "68ca3107a07e3_the-alana-hotel-white.PNG?1758084097535",
+      "sourcex": "https://cdn0.alanahotels.com/Images/v1/TheAlanaYogyakarta/Overview/Yogyakarta_White-03.svg",
+      "source": "media/img/alana_logowhite.png",
+      "string_dynamic": null,
+      "parameter_source": "menu",
+      "parameter_source_value": "",
+      "multilanguage": [
+        {
+          "lg_id": "2",
+          "source": "68ca3107a07e3_the-alana-hotel-white.PNG",
+          "stringDynamic": null,
+          "width": 418,
+          "height": 143.99999999999997,
+          "raw": {
+            "width": 737.6470588235294,
+            "height": 254.11764705882354,
+            "scaleX": 0.9999999999999999,
+            "scaleY": 0.9999999999999999
+          }
+        },
+        {
+          "lg_id": "1",
+          "source": "68ca3107a07e3_the-alana-hotel-white.PNG?1758084097535",
+          "stringDynamic": null,
+          "parameterSource": "menu",
+          "parameterSourceValue": "",
+          "width": 328.0330194540382,
+          "height": 113.00659043392703,
+          "raw": {
+            "width": 737.6470588235294,
+            "height": 254.11764705882354,
+            "scaleX": 0.7847679891244933,
+            "scaleY": 0.7847679891244933
+          }
+        },
+        {
+          "lg_id": "18",
+          "source": "68ca3107a07e3_the-alana-hotel-white.PNG",
+          "stringDynamic": null,
+          "width": 418,
+          "height": 143.99999999999997,
+          "raw": {
+            "width": 737.6470588235294,
+            "height": 254.11764705882354,
+            "scaleX": 0.9999999999999999,
+            "scaleY": 0.9999999999999999
+          }
+        }
+      ]
+    },
+    {
+      "id": "Clock_jkv7o",
+      "component": "Clock",
+      "transform": {
+        "x": 750,
+        "y": 49.09090909090906,
+        "width": 179.15624999999997,
+        "height": 81.35999999999997,
+        "layer_index": 3,
+        "opacity": 1,
+        "raw": {
+          "width": 179.15624999999997,
+          "height": 81.35999999999997,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "text": "23:59",
+      "text_align": "left",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 71.99999999999999,
+        "font_family": "Roboto",
+        "font_weight": "bold",
+        "font_style": "normal"
+      },
+      "format": "24-hours"
+    },
+    {
+      "id": "Date_rbrqf",
+      "component": "Date",
+      "transform": {
+        "x": 750,
+        "y": 130.90909090909088,
+        "width": 176.15624999999997,
+        "height": 36.15999999999998,
+        "layer_index": 4,
+        "opacity": 1,
+        "raw": {
+          "width": 176.15624999999997,
+          "height": 36.15999999999998,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "text": "01 Jan 2023",
+      "text_align": "left",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 31.999999999999993,
+        "font_family": "Helvetica",
+        "font_weight": "normal",
+        "font_style": "normal"
+      },
+      "format": "DD Mo YYYY",
+      "include_day_name": false
+    },
+    {
+      "id": "TextDynamic_kb9xb",
+      "component": "TextDynamic",
+      "transform": {
+        "x": 1715.4545454545457,
+        "y": 60,
+        "width": 204.54545454545402,
+        "height": 88.94117647058823,
+        "layer_index": 5,
+        "opacity": 1,
+        "raw": {
+          "width": 204.54545454545402,
+          "height": 88.94117647058823,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "scroll_direction": "Horizontal",
+      "scroll_speed": 100,
+      "parameter_source": "menu",
+      "parameter_source_value": "",
+      "text": "Room\n%device/roomnumber%",
+      "text_align": "left",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 31.999999999999993,
+        "font_family": "Roboto",
+        "font_opacity": 1,
+        "font_weight": "normal",
+        "font_style": "normal"
+      },
+      "metadata": {
+        "textDynamicId": "TextDynamic_kb9xb",
+        "layerIndex": 5,
+        "scrollDirection": "Horizontal",
+        "scrollSpeed": 100,
+        "parameterSource": "menu",
+        "parameterSourceValue": "",
+        "multilanguage": [
+          {
+            "lg_id": "2",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "width": 211.76470588235293,
+            "height": 211.76470588235293
+          },
+          {
+            "lg_id": "1",
+            "text": "Roomn%device/roomnumber%",
+            "width": 204.54545454545402,
+            "height": 88.94117647058823
+          },
+          {
+            "lg_id": "18",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "width": 211.76470588235293,
+            "height": 211.76470588235293
+          }
+        ]
+      },
+      "multilanguage": [
+        {
+          "lg_id": "2",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "width": 211.76470588235293,
+          "height": 211.76470588235293
+        },
+        {
+          "lg_id": "1",
+          "text": "Roomn%device/roomnumber%",
+          "width": 204.54545454545402,
+          "height": 88.94117647058823
+        },
+        {
+          "lg_id": "18",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "width": 211.76470588235293,
+          "height": 211.76470588235293
+        }
+      ]
+    },
+    {
+      "id": "Rectangle_fnb73",
+      "component": "Rectangle",
+      "transform": {
+        "x": 1693.0928411503078,
+        "y": 45.641834317187815,
+        "width": 3.999999999999999,
+        "height": 107.90555228766539,
+        "layer_index": 6,
+        "opacity": 1,
+        "raw": {
+          "width": 3.999999999999999,
+          "height": 107.90555228766539,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "radius_corner": 0,
+      "background": {
+        "background_color": "#ffffff"
+      }
+    },
+    {
+      "id": "Rectangle_1gau1",
+      "component": "Rectangle",
+      "transform": {
+        "x": 971.6502673796791,
+        "y": 53.73689839572193,
+        "width": 4.0058823529411764,
+        "height": 107.91176470588235,
+        "layer_index": 7,
+        "opacity": 1,
+        "raw": {
+          "width": 4.0058823529411764,
+          "height": 107.91176470588235,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "radius_corner": 0,
+      "background": {
+        "background_color": "#ffffff"
+      }
+    },
+    {
+      "id": "TextDynamic_ak04l",
+      "component": "TextDynamic",
+      "transform": {
+        "x": 1300.909090909091,
+        "y": 60,
+        "width": 366.81176470588224,
+        "height": 88.94117647058823,
+        "layer_index": 8,
+        "opacity": 1,
+        "raw": {
+          "width": 366.81176470588224,
+          "height": 88.94117647058823,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "scroll_direction": "Horizontal",
+      "scroll_speed": 100,
+      "parameter_source": "menu",
+      "parameter_source_value": "",
+      "text": "Welcome,\n%device/guestname%",
+      "text_align": "right",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 31.999999999999993,
+        "font_family": "Roboto",
+        "font_opacity": 1,
+        "font_weight": "normal",
+        "font_style": "normal"
+      },
+      "metadata": {
+        "textDynamicId": "TextDynamic_ak04l",
+        "layerIndex": 8,
+        "scrollDirection": "Horizontal",
+        "scrollSpeed": 100,
+        "parameterSource": "menu",
+        "parameterSourceValue": "",
+        "multilanguage": [
+          {
+            "lg_id": "2",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "width": 211.76470588235293,
+            "height": 211.76470588235293
+          },
+          {
+            "lg_id": "1",
+            "text": "Welcome,n%device/guestname%",
+            "width": 366.81176470588224,
+            "height": 88.94117647058823
+          },
+          {
+            "lg_id": "18",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "width": 211.76470588235293,
+            "height": 211.76470588235293
+          }
+        ]
+      },
+      "multilanguage": [
+        {
+          "lg_id": "2",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "width": 211.76470588235293,
+          "height": 211.76470588235293
+        },
+        {
+          "lg_id": "1",
+          "text": "Welcome,n%device/guestname%",
+          "width": 366.81176470588224,
+          "height": 88.94117647058823
+        },
+        {
+          "lg_id": "18",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "width": 211.76470588235293,
+          "height": 211.76470588235293
+        }
+      ]
+    },
+    {
+      "id": "Weather_bm8p0",
+      "component": "Weather",
+      "transform": {
+        "x": 1014.9999999999999,
+        "y": 56.17359386850215,
+        "width": 66.47346495502731,
+        "height": 66.47346495502731,
+        "layer_index": 9,
+        "opacity": 1,
+        "raw": {
+          "width": 225.88235294117646,
+          "height": 225.88235294117646,
+          "scaleX": 0.5193239449611509,
+          "scaleY": 0.5193239449611509
+        }
+      },
+      "background": {
+        "background_color": "#ffffff"
+      }
+    },
+    {
+      "id": "Temperature_o36kp",
+      "component": "Temperature",
+      "transform": {
+        "x": 1013.1818181818181,
+        "y": 131,
+        "width": 140,
+        "height": 36.15999999999998,
+        "layer_index": 10,
+        "opacity": 1,
+        "raw": {
+          "width": 1260,
+          "height": 36.15999999999998,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "text": "23 °C",
+      "text_align": "left",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 31.999999999999993,
+        "font_family": "Roboto",
+        "font_weight": "normal",
+        "font_style": "normal"
+      }
+    },
+    {
+      "id": "Rectangle_9zybx",
+      "component": "Rectangle",
+      "transform": {
+        "x": 28,
+        "y": 238.63636363636363,
+        "width": 200.45454545454544,
+        "height": 283.6363636363637,
+        "layer_index": 11,
+        "opacity": 1,
+        "raw": {
+          "width": 200.45454545454544,
+          "height": 283.6363636363637,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "radius_corner": 0,
+      "background": {
+        "background_color": "#6d1810"
+      }
+    },
+    {
+      "id": "Image_uybmh",
+      "component": "Image",
+      "transform": {
+        "x": 38.00000000000001,
+        "y": 280.9090909090908,
+        "width": 179.99999999999997,
+        "height": 179.99999999999997,
+        "layer_index": 12,
+        "opacity": 1,
+        "raw": {
+          "width": 529.4117647058823,
+          "height": 529.4117647058823,
+          "scaleX": 0.6,
+          "scaleY": 0.6
+        }
+      },
+      "source_asli": "68ca4105c7470_qr-wifi.png?1758085673157",
+      "source": "media/img/alana_qr.png",
+      "string_dynamic": null,
+      "parameter_source": "menu",
+      "parameter_source_value": "",
+      "multilanguage": [
+        {
+          "lg_id": "2",
+          "source": "68ca4105c7470_qr-wifi.png",
+          "stringDynamic": null,
+          "width": 300,
+          "height": 300,
+          "raw": {
+            "width": 529.4117647058823,
+            "height": 529.4117647058823,
+            "scaleX": 0.9999999999999999,
+            "scaleY": 0.9999999999999999
+          }
+        },
+        {
+          "lg_id": "1",
+          "source": "68ca4105c7470_qr-wifi.png?1758085673157",
+          "stringDynamic": null,
+          "parameterSource": "menu",
+          "parameterSourceValue": "",
+          "width": 179.99999999999997,
+          "height": 179.99999999999997,
+          "raw": {
+            "width": 529.4117647058823,
+            "height": 529.4117647058823,
+            "scaleX": 0.6,
+            "scaleY": 0.6
+          }
+        },
+        {
+          "lg_id": "18",
+          "source": "68ca4105c7470_qr-wifi.png",
+          "stringDynamic": null,
+          "width": 300,
+          "height": 300,
+          "raw": {
+            "width": 529.4117647058823,
+            "height": 529.4117647058823,
+            "scaleX": 0.9999999999999999,
+            "scaleY": 0.9999999999999999
+          }
+        }
+      ]
+    },
+    {
+      "id": "TextDynamic_s95f1",
+      "component": "TextDynamic",
+      "transform": {
+        "x": 37.99999999999999,
+        "y": 467.72727272727263,
+        "width": 178.63636363636323,
+        "height": 47.71006178287721,
+        "layer_index": 13,
+        "opacity": 1,
+        "raw": {
+          "width": 178.63636363636323,
+          "height": 47.71006178287721,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "scroll_direction": "Horizontal",
+      "scroll_speed": 100,
+      "parameter_source": "menu",
+      "parameter_source_value": "",
+      "text": "SSID : Test\nPassword: 123",
+      "text_align": "left",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 16,
+        "font_family": "Roboto",
+        "font_opacity": 1,
+        "font_weight": "normal",
+        "font_style": "normal"
+      },
+      "metadata": {
+        "textDynamicId": "TextDynamic_s95f1",
+        "layerIndex": 13,
+        "scrollDirection": "Horizontal",
+        "scrollSpeed": 100,
+        "parameterSource": "menu",
+        "parameterSourceValue": "",
+        "multilanguage": [
+          {
+            "lg_id": "2",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "width": 211.76470588235293,
+            "height": 211.76470588235293
+          },
+          {
+            "lg_id": "1",
+            "text": "SSID : TestnPassword: 123",
+            "width": 178.63636363636323,
+            "height": 47.71006178287721
+          },
+          {
+            "lg_id": "18",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "width": 211.76470588235293,
+            "height": 211.76470588235293
+          }
+        ]
+      },
+      "multilanguage": [
+        {
+          "lg_id": "2",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "width": 211.76470588235293,
+          "height": 211.76470588235293
+        },
+        {
+          "lg_id": "1",
+          "text": "SSID : TestnPassword: 123",
+          "width": 178.63636363636323,
+          "height": 47.71006178287721
+        },
+        {
+          "lg_id": "18",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "width": 211.76470588235293,
+          "height": 211.76470588235293
+        }
+      ]
+    },
+    {
+      "id": "TextDynamic_rf1qz",
+      "component": "TextDynamic",
+      "transform": {
+        "x": 30,
+        "y": 245.45454545454555,
+        "width": 196.35882352941175,
+        "height": 28.54652406417114,
+        "layer_index": 14,
+        "opacity": 1,
+        "raw": {
+          "width": 196.35882352941175,
+          "height": 28.54652406417114,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "scroll_direction": "Horizontal",
+      "scroll_speed": 100,
+      "parameter_source": "menu",
+      "parameter_source_value": "",
+      "text": "In-Room WiFi",
+      "text_align": "center",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 24,
+        "font_family": "Roboto",
+        "font_opacity": 1,
+        "font_weight": "normal",
+        "font_style": "normal"
+      },
+      "metadata": {
+        "textDynamicId": "TextDynamic_rf1qz",
+        "layerIndex": 14,
+        "scrollDirection": "Horizontal",
+        "scrollSpeed": 100,
+        "parameterSource": "menu",
+        "parameterSourceValue": "",
+        "multilanguage": [
+          {
+            "lg_id": "2",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "width": 211.76470588235293,
+            "height": 211.76470588235293
+          },
+          {
+            "lg_id": "1",
+            "text": "In-Room WiFi",
+            "width": 196.35882352941175,
+            "height": 28.54652406417114
+          },
+          {
+            "lg_id": "18",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "width": 211.76470588235293,
+            "height": 211.76470588235293
+          }
+        ]
+      },
+      "multilanguage": [
+        {
+          "lg_id": "2",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "width": 211.76470588235293,
+          "height": 211.76470588235293
+        },
+        {
+          "lg_id": "1",
+          "text": "In-Room WiFi",
+          "width": 196.35882352941175,
+          "height": 28.54652406417114
+        },
+        {
+          "lg_id": "18",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "width": 211.76470588235293,
+          "height": 211.76470588235293
+        }
+      ]
+    },
+    {
+      "id": "Rectangle_sx9am",
+      "component": "Rectangle",
+      "transform": {
+        "x": 249.272727272727,
+        "y": 239,
+        "width": 200.45294117647057,
+        "height": 234.18181818181816,
+        "layer_index": 15,
+        "opacity": 1,
+        "raw": {
+          "width": 200.45294117647057,
+          "height": 234.18181818181816,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "radius_corner": 0,
+      "background": {
+        "background_color": "#6d1810"
+      }
+    },
+    {
+      "id": "Image_lh93t",
+      "component": "Image",
+      "transform": {
+        "x": 258.82299465240646,
+        "y": 280.8256684491979,
+        "width": 179.99999999999997,
+        "height": 179.99999999999997,
+        "layer_index": 16,
+        "opacity": 1,
+        "raw": {
+          "width": 529.4117647058823,
+          "height": 529.4117647058823,
+          "scaleX": 0.6,
+          "scaleY": 0.6
+        }
+      },
+      "source_asli": "68ca4105c7470_qr-wifi.png?1758085673157?1758085777575",
+      "source": "media/img/alana_qr.png",
+      "string_dynamic": null,
+      "multilanguage": [
+        {
+          "lg_id": "2",
+          "source": "68ca4105c7470_qr-wifi.png",
+          "stringDynamic": null,
+          "width": 300,
+          "height": 300,
+          "raw": {
+            "width": 529.4117647058823,
+            "height": 529.4117647058823,
+            "scaleX": 0.9999999999999999,
+            "scaleY": 0.9999999999999999
+          }
+        },
+        {
+          "lg_id": "1",
+          "source": "68ca4105c7470_qr-wifi.png?1758085673157?1758085777575",
+          "stringDynamic": null,
+          "width": 179.99999999999997,
+          "height": 179.99999999999997,
+          "raw": {
+            "width": 529.4117647058823,
+            "height": 529.4117647058823,
+            "scaleX": 0.6,
+            "scaleY": 0.6
+          }
+        },
+        {
+          "lg_id": "18",
+          "source": "68ca4105c7470_qr-wifi.png",
+          "stringDynamic": null,
+          "width": 300,
+          "height": 300,
+          "raw": {
+            "width": 529.4117647058823,
+            "height": 529.4117647058823,
+            "scaleX": 0.9999999999999999,
+            "scaleY": 0.9999999999999999
+          }
+        }
+      ],
+      "parameter_source": "menu",
+      "parameter_source_value": ""
+    },
+    {
+      "id": "TextDynamic_j7fue",
+      "component": "TextDynamic",
+      "transform": {
+        "x": 252.1973262032086,
+        "y": 244.09090909090912,
+        "width": 196.35882352941175,
+        "height": 28.54652406417114,
+        "layer_index": 17,
+        "opacity": 1,
+        "raw": {
+          "width": 196.35882352941175,
+          "height": 28.54652406417114,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "scroll_direction": "Horizontal",
+      "scroll_speed": 100,
+      "parameter_source": "menu",
+      "parameter_source_value": "",
+      "text": "Hotel Info",
+      "text_align": "center",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 24,
+        "font_family": "Roboto",
+        "font_opacity": 1,
+        "font_weight": "normal",
+        "font_style": "normal"
+      },
+      "metadata": {
+        "textDynamicId": "TextDynamic_j7fue",
+        "layerIndex": 17,
+        "scrollDirection": "Horizontal",
+        "scrollSpeed": 100,
+        "parameterSource": "menu",
+        "parameterSourceValue": "",
+        "multilanguage": [
+          {
+            "lg_id": "2",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "width": 211.76470588235293,
+            "height": 211.76470588235293
+          },
+          {
+            "lg_id": "1",
+            "text": "Hotel Info",
+            "width": 196.35882352941175,
+            "height": 28.54652406417114
+          },
+          {
+            "lg_id": "18",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "width": 211.76470588235293,
+            "height": 211.76470588235293
+          }
+        ]
+      },
+      "multilanguage": [
+        {
+          "lg_id": "2",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "width": 211.76470588235293,
+          "height": 211.76470588235293
+        },
+        {
+          "lg_id": "1",
+          "text": "Hotel Info",
+          "width": 196.35882352941175,
+          "height": 28.54652406417114
+        },
+        {
+          "lg_id": "18",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "width": 211.76470588235293,
+          "height": 211.76470588235293
+        }
+      ]
+    },
+    {
+      "id": "Rectangle_0m5wa",
+      "component": "Rectangle",
+      "transform": {
+        "x": 0,
+        "y": 1007.7272727272726,
+        "width": 1920,
+        "height": 72.27272727272691,
+        "layer_index": 18,
+        "opacity": "0.42",
+        "raw": {
+          "width": 1920,
+          "height": 72.27272727272691,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "radius_corner": 0,
+      "background": {
+        "background_color": "#000000"
+      }
+    },
+    {
+      "id": "RunningText_l041a",
+      "component": "RunningText",
+      "transform": {
+        "x": 0,
+        "y": 1012.2763636363636,
+        "width": 1920,
+        "height": 40.679999999999986,
+        "layer_index": 19,
+        "opacity": 1,
+        "raw": {
+          "width": 1920,
+          "height": 40.679999999999986,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "text": "The Alana Hotel & Conference Center merupakan hotel bintang 4 berkonsep modern-ethnic di bawah naungan Archipelago International, yang menawarkan perpaduan desain tradisional, kenyamanan modern, serta fasilitas pusat konvensi untuk bisnis maupun keluarga.",
+      "scroll_speed": 40,
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 35.99999999999999,
+        "font_family": "Roboto",
+        "font_weight": "normal",
+        "font_style": "normal"
+      }
+    },
+    {
+      "id": "Button_onsa6",
+      "component": "Button",
+      "transform": {
+        "x": 360,
+        "y": 750,
+        "width": 199.99999999999997,
+        "height": 199.99999999999986,
+        "layer_index": 20,
+        "opacity": 1,
+        "raw": {
+          "width": 199.99999999999997,
+          "height": 199.99999999999986,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "group_id": "Button_onsa6",
+      "menu": {
+        "dm_id": "131",
+        "dm_name": "abisena promo"
+      },
+      "language": {
+        "lg_id": "2",
+        "lg_name": "English"
+      },
+      "is_enable_text": true,
+      "is_enable_image": true,
+      "scroll_x": true,
+      "scroll_y": true,
+      "action_id": "open_fixed_menu",
+      "action_parameter": {
+        "menu": "131",
+        "fixedMenu": "tv_channel",
+        "categories": [],
+        "custom": "",
+        "app": "20",
+        "image": "",
+        "channel": "",
+        "language": "2",
+        "gridOrder": "",
+        "url": "",
+        "appParamType": "none"
+      },
+      "is_action_compatible": true,
+      "metadata": {
+        "groupId": "Button_onsa6",
+        "layerIndex": 20,
+        "dmId": "131",
+        "dmName": "abisena promo",
+        "lgId": "2",
+        "lgName": "English",
+        "isEnableText": true,
+        "isEnableImage": true,
+        "scrollX": true,
+        "scrollY": true,
+        "actionId": "open_fixed_menu",
+        "actionParameter": {
+          "menu": "131",
+          "fixedMenu": "tv_channel",
+          "categories": [],
+          "custom": "",
+          "app": "20",
+          "image": "",
+          "channel": "",
+          "language": "2",
+          "gridOrder": "",
+          "url": "",
+          "appParamType": "none"
+        },
+        "isActionCompatible": true,
+        "temp": {
+          "buttonText": {
+            "id": null,
+            "xRelative": null,
+            "yRelative": null,
+            "text": null,
+            "fontSize": null,
+            "fontColor": null,
+            "fontFamily": null,
+            "textAlign": null
+          },
+          "buttonImage": {
+            "id": null,
+            "source": null,
+            "xRelative": null,
+            "yRelative": null,
+            "width": null,
+            "height": null,
+            "scaleX": null,
+            "scaleY": null
+          }
+        }
+      },
+      "objects": [
+        {
+          "id": "Button_Rectangle_nmehf",
+          "component": "Button_Rectangle",
+          "transform": {
+            "x": 360,
+            "y": 750,
+            "width": 199.99999999999997,
+            "height": 199.99999999999997,
+            "layer_index": -1,
+            "opacity": "0",
+            "raw": {
+              "width": 199.99999999999997,
+              "height": 199.99999999999997,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#6d1810"
+          },
+          "hover_color": "#6d1810",
+          "hover_opacity": 1,
+          "radius_corner": 0.26
+        },
+        {
+          "id": "Button_Image_111vy",
+          "component": "Button_Image",
+          "transform": {
+            "x": 404.848484848485,
+            "y": 768.2575757575759,
+            "width": 112.50000000000007,
+            "height": 112.50000000000007,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 264.70588235294116,
+              "height": 264.70588235294116,
+              "scaleX": 0.7500000000000004,
+              "scaleY": 0.7500000000000004
+            }
+          },
+          "source_asli": "642ea206c3f79_tv.png?1758086240640",
+          "source": "media/icon/png/wpf--retro-tv.png",
+          "multilanguage": [
+            {
+              "lg_id": "2",
+              "source": "placeholder/placeholder_button_image.png",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 132.35294117647058,
+              "height": 132.35294117647058,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.5170036764705882,
+                "scaleY": 0.5170036764705882
+              }
+            },
+            {
+              "lg_id": "1",
+              "source": "642ea206c3f79_tv.png?1758086240640",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 112.50000000000007,
+              "height": 112.50000000000007,
+              "raw": {
+                "width": 264.70588235294116,
+                "height": 264.70588235294116,
+                "scaleX": 0.7500000000000004,
+                "scaleY": 0.7500000000000004
+              }
+            },
+            {
+              "lg_id": "18",
+              "source": "placeholder/placeholder_button_image.png",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 132.35294117647058,
+              "height": 132.35294117647058,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.5170036764705882,
+                "scaleY": 0.5170036764705882
+              }
+            }
+          ]
+        },
+        {
+          "id": "Button_Text_b7cbm",
+          "component": "Button_Text",
+          "transform": {
+            "x": 390.00000000000017,
+            "y": 900.0000000000001,
+            "width": 144.77945963541666,
+            "height": 32.01666666666666,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 144.77945963541666,
+              "height": 32.01666666666666,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "text": "TV Channel",
+          "text_align": "center",
+          "font": {
+            "font_color": "#ffffff",
+            "font_size": 28.33333333333333,
+            "font_family": "Roboto",
+            "font_weight": "normal",
+            "font_style": "normal"
+          },
+          "multilanguage": [
+            {
+              "lg_id": "2",
+              "text": "Button"
+            },
+            {
+              "lg_id": "1",
+              "text": "TV Channel",
+              "width": 144.77945963541666,
+              "height": 32.01666666666666
+            },
+            {
+              "lg_id": "18",
+              "text": "Button"
+            }
+          ]
+        }
+      ],
+      "parameter_source": "menu",
+      "parameter_source_value": ""
+    },
+    {
+      "id": "Button_579qz",
+      "component": "Button",
+      "transform": {
+        "x": 559.9911764705884,
+        "y": 749.9911764705882,
+        "width": 199.9941176470587,
+        "height": 199.9941176470587,
+        "layer_index": 21,
+        "opacity": 1,
+        "raw": {
+          "width": 199.9941176470587,
+          "height": 199.9941176470587,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "group_id": "Button_579qz",
+      "menu": {
+        "dm_id": "131",
+        "dm_name": "abisena promo"
+      },
+      "language": {
+        "lg_id": "2",
+        "lg_name": "English"
+      },
+      "is_enable_text": true,
+      "is_enable_image": true,
+      "scroll_x": true,
+      "scroll_y": true,
+      "action_id": "open_app",
+      "action_parameter": {
+        "menu": "131",
+        "fixedMenu": "tv_channel",
+        "categories": [],
+        "custom": "",
+        "app": "12",
+        "image": "",
+        "channel": "",
+        "language": "2",
+        "gridOrder": "",
+        "url": "",
+        "appParamType": "none"
+      },
+      "is_action_compatible": true,
+      "metadata": {
+        "groupId": "Button_579qz",
+        "layerIndex": 21,
+        "dmId": "131",
+        "dmName": "abisena promo",
+        "lgId": "2",
+        "lgName": "English",
+        "isEnableText": true,
+        "isEnableImage": true,
+        "scrollX": true,
+        "scrollY": true,
+        "actionId": "open_app",
+        "actionParameter": {
+          "menu": "131",
+          "fixedMenu": "tv_channel",
+          "categories": [],
+          "custom": "",
+          "app": "6",
+          "image": "",
+          "channel": "",
+          "language": "2",
+          "gridOrder": "",
+          "url": "",
+          "appParamType": "none"
+        },
+        "isActionCompatible": true,
+        "temp": {
+          "buttonText": {
+            "id": null,
+            "xRelative": null,
+            "yRelative": null,
+            "text": null,
+            "fontSize": null,
+            "fontColor": null,
+            "fontFamily": null,
+            "textAlign": null
+          },
+          "buttonImage": {
+            "id": null,
+            "source": null,
+            "xRelative": null,
+            "yRelative": null,
+            "width": null,
+            "height": null,
+            "scaleX": null,
+            "scaleY": null
+          }
+        }
+      },
+      "objects": [
+        {
+          "id": "Button_Rectangle_vbtwz",
+          "component": "Button_Rectangle",
+          "transform": {
+            "x": 559.9911764705884,
+            "y": 749.9911764705882,
+            "width": 199.9941176470588,
+            "height": 199.9941176470588,
+            "layer_index": -1,
+            "opacity": 0,
+            "raw": {
+              "width": 199.9941176470588,
+              "height": 199.9941176470588,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#6d1810"
+          },
+          "hover_color": "#6d1810",
+          "hover_opacity": 1,
+          "radius_corner": 0.26
+        },
+        {
+          "id": "Button_Image_kuy8r",
+          "component": "Button_Image",
+          "transform": {
+            "x": 595,
+            "y": 768.2558823529411,
+            "width": 125.7197860962566,
+            "height": 125.7197860962566,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 451.7647058823529,
+              "height": 451.7647058823529,
+              "scaleX": 0.49109291443850234,
+              "scaleY": 0.49109291443850234
+            }
+          },
+          "source_asli": "64082698ebb57_63ab9d94105dcvidio256.png?1758086485428",
+          "source": "media/icon/png/arcticons--vidio.png",
+          "multilanguage": [
+            {
+              "lg_id": "2",
+              "source": "placeholder/placeholder_button_image.png",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 132.35294117647058,
+              "height": 132.35294117647058,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.5170036764705882,
+                "scaleY": 0.5170036764705882
+              }
+            },
+            {
+              "lg_id": "1",
+              "source": "64082698ebb57_63ab9d94105dcvidio256.png?1758086485428",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 125.7197860962566,
+              "height": 125.7197860962566,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.49109291443850234,
+                "scaleY": 0.49109291443850234
+              }
+            },
+            {
+              "lg_id": "18",
+              "source": "placeholder/placeholder_button_image.png",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 132.35294117647058,
+              "height": 132.35294117647058,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.5170036764705882,
+                "scaleY": 0.5170036764705882
+              }
+            }
+          ]
+        },
+        {
+          "id": "Button_Text_7jj7l",
+          "component": "Button_Text",
+          "transform": {
+            "x": 625,
+            "y": 899.9911764705884,
+            "width": 63.91601562499999,
+            "height": 32.01666666666666,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 63.91601562499999,
+              "height": 32.01666666666666,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "text": "Vidio",
+          "text_align": "center",
+          "font": {
+            "font_color": "#ffffff",
+            "font_size": 28.33333333333333,
+            "font_family": "Roboto",
+            "font_weight": "normal",
+            "font_style": "normal"
+          },
+          "multilanguage": [
+            {
+              "lg_id": "2",
+              "text": "Button"
+            },
+            {
+              "lg_id": "1",
+              "text": "Vidio",
+              "width": 63.91601562499999,
+              "height": 32.01666666666666
+            },
+            {
+              "lg_id": "18",
+              "text": "Button"
+            }
+          ]
+        }
+      ],
+      "parameter_source": "menu",
+      "parameter_source_value": ""
+    },
+    {
+      "id": "Image_7thdk",
+      "component": "Image",
+      "transform": {
+        "x": 1830,
+        "y": 184.09090909090875,
+        "width": 54.181818181818485,
+        "height": 54.181818181818485,
+        "layer_index": 22,
+        "opacity": 1,
+        "raw": {
+          "width": 2823.529411764706,
+          "height": 2823.529411764706,
+          "scaleX": 0.033863636363636554,
+          "scaleY": 0.033863636363636554
+        }
+      },
+      "source_asli": "%network/icon%",
+      "source": "%network/icon%",
+      "string_dynamic": "%network/icon%",
+      "parameter_source": "menu",
+      "parameter_source_value": "",
+      "multilanguage": [
+        {
+          "lg_id": "2",
+          "source": "68ca4f068b276_wifi.png",
+          "stringDynamic": null,
+          "width": 255.99999999999997,
+          "height": 255.99999999999997,
+          "raw": {
+            "width": 451.7647058823529,
+            "height": 451.7647058823529,
+            "scaleX": 0.9999999999999999,
+            "scaleY": 0.9999999999999999
+          }
+        },
+        {
+          "lg_id": "1",
+          "source": "placeholder/placeholder_dynamic_image.png?v=1",
+          "stringDynamic": "%network/icon%",
+          "parameterSource": "menu",
+          "parameterSourceValue": "",
+          "width": 54.181818181818485,
+          "height": 54.181818181818485,
+          "raw": {
+            "width": 2823.529411764706,
+            "height": 2823.529411764706,
+            "scaleX": 0.033863636363636554,
+            "scaleY": 0.033863636363636554
+          }
+        },
+        {
+          "lg_id": "18",
+          "source": "68ca4f068b276_wifi.png",
+          "stringDynamic": null,
+          "width": 255.99999999999997,
+          "height": 255.99999999999997,
+          "raw": {
+            "width": 451.7647058823529,
+            "height": 451.7647058823529,
+            "scaleX": 0.9999999999999999,
+            "scaleY": 0.9999999999999999
+          }
+        }
+      ]
+    },
+    {
+      "id": "Button_wrjj5",
+      "component": "Button",
+      "transform": {
+        "x": 759.9911764705882,
+        "y": 750.0088235294118,
+        "width": 199.9941176470587,
+        "height": 199.9941176470587,
+        "layer_index": 23,
+        "opacity": 1,
+        "raw": {
+          "width": 199.9941176470587,
+          "height": 199.9941176470587,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "group_id": "Button_wrjj5",
+      "menu": {
+        "dm_id": "10",
+        "dm_name": "abisena promo"
+      },
+      "language": {
+        "lg_id": "2",
+        "lg_name": "English"
+      },
+      "is_enable_text": true,
+      "is_enable_image": true,
+      "scroll_x": true,
+      "scroll_y": true,
+      "action_id": "open_app",
+      "action_parameter": {
+        "menu": "131",
+        "fixedMenu": "tv_channel",
+        "categories": [],
+        "custom": "",
+        "app": "10",
+        "image": "",
+        "channel": "",
+        "language": "2",
+        "gridOrder": "",
+        "url": "",
+        "appParamType": "none"
+      },
+      "is_action_compatible": true,
+      "metadata": {
+        "groupId": "Button_wrjj5",
+        "layerIndex": 23,
+        "dmId": "131",
+        "dmName": "abisena promo",
+        "lgId": "2",
+        "lgName": "English",
+        "isEnableText": true,
+        "isEnableImage": true,
+        "scrollX": true,
+        "scrollY": true,
+        "actionId": "open_app",
+        "actionParameter": {
+          "menu": "131",
+          "fixedMenu": "tv_channel",
+          "categories": [],
+          "custom": "",
+          "app": "10",
+          "image": "",
+          "channel": "",
+          "language": "2",
+          "gridOrder": "",
+          "url": "",
+          "appParamType": "none"
+        },
+        "isActionCompatible": true,
+        "temp": {
+          "buttonText": {
+            "id": null,
+            "xRelative": null,
+            "yRelative": null,
+            "text": null,
+            "fontSize": null,
+            "fontColor": null,
+            "fontFamily": null,
+            "textAlign": null
+          },
+          "buttonImage": {
+            "id": null,
+            "source": null,
+            "xRelative": null,
+            "yRelative": null,
+            "width": null,
+            "height": null,
+            "scaleX": null,
+            "scaleY": null
+          }
+        }
+      },
+      "objects": [
+        {
+          "id": "Button_Rectangle_pdted",
+          "component": "Button_Rectangle",
+          "transform": {
+            "x": 759.9911764705882,
+            "y": 750.0088235294118,
+            "width": 199.9941176470588,
+            "height": 199.9941176470588,
+            "layer_index": -1,
+            "opacity": 0,
+            "raw": {
+              "width": 199.9941176470588,
+              "height": 199.9941176470588,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#6d1810"
+          },
+          "hover_color": "#6d1810",
+          "hover_opacity": 1,
+          "radius_corner": 0.26
+        },
+        {
+          "id": "Button_Image_yehjv",
+          "component": "Button_Image",
+          "transform": {
+            "x": 795,
+            "y": 765,
+            "width": 132.9545454545453,
+            "height": 132.9545454545453,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 451.7647058823529,
+              "height": 451.7647058823529,
+              "scaleX": 0.5193536931818176,
+              "scaleY": 0.5193536931818176
+            }
+          },
+          "source_asli": "63731080aa9c8_youtube.png?1758086564561",
+          "source": "media/icon/png/ant-design--youtube-filled.png",
+          "multilanguage": [
+            {
+              "lg_id": "2",
+              "source": "placeholder/placeholder_button_image.png",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 132.35294117647058,
+              "height": 132.35294117647058,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.5170036764705882,
+                "scaleY": 0.5170036764705882
+              }
+            },
+            {
+              "lg_id": "1",
+              "source": "63731080aa9c8_youtube.png?1758086564561",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 132.9545454545453,
+              "height": 132.9545454545453,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.5193536931818176,
+                "scaleY": 0.5193536931818176
+              }
+            },
+            {
+              "lg_id": "18",
+              "source": "placeholder/placeholder_button_image.png",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 132.35294117647058,
+              "height": 132.35294117647058,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.5170036764705882,
+                "scaleY": 0.5170036764705882
+              }
+            }
+          ]
+        },
+        {
+          "id": "Button_Text_o6hcs",
+          "component": "Button_Text",
+          "transform": {
+            "x": 805,
+            "y": 900.0088235294119,
+            "width": 110.01302083333331,
+            "height": 32.01666666666666,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 110.01302083333331,
+              "height": 32.01666666666666,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "text": "YouTube",
+          "text_align": "center",
+          "font": {
+            "font_color": "#ffffff",
+            "font_size": 28.33333333333333,
+            "font_family": "Roboto",
+            "font_weight": "normal",
+            "font_style": "normal"
+          },
+          "multilanguage": [
+            {
+              "lg_id": "2",
+              "text": "Button"
+            },
+            {
+              "lg_id": "1",
+              "text": "YouTube",
+              "width": 110.01302083333331,
+              "height": 32.01666666666666
+            },
+            {
+              "lg_id": "18",
+              "text": "Button"
+            }
+          ]
+        }
+      ],
+      "parameter_source": "menu",
+      "parameter_source_value": ""
+    },
+    {
+      "id": "Button_g8yww",
+      "component": "Button",
+      "transform": {
+        "x": 1159.9911764705882,
+        "y": 749.9911764705882,
+        "width": 199.9941176470587,
+        "height": 199.9941176470587,
+        "layer_index": 24,
+        "opacity": 1,
+        "raw": {
+          "width": 199.9941176470587,
+          "height": 199.9941176470587,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "group_id": "Button_g8yww",
+      "menu": {
+        "dm_id": "3",
+        "dm_name": "abisena promo"
+      },
+      "language": {
+        "lg_id": "2",
+        "lg_name": "English"
+      },
+      "is_enable_text": true,
+      "is_enable_image": true,
+      "scroll_x": true,
+      "scroll_y": true,
+      "action_id": "open_menu",
+      "action_parameter": {
+        "menu": "3",
+        "fixedMenu": "dining",
+        "categories": [],
+        "custom": "",
+        "app": "5",
+        "image": "",
+        "channel": "",
+        "language": "2",
+        "gridOrder": "",
+        "url": "",
+        "appParamType": "none"
+      },
+      "is_action_compatible": true,
+      "metadata": {
+        "groupId": "Button_g8yww",
+        "layerIndex": 24,
+        "dmId": "131",
+        "dmName": "abisena promo",
+        "lgId": "2",
+        "lgName": "English",
+        "isEnableText": true,
+        "isEnableImage": true,
+        "scrollX": true,
+        "scrollY": true,
+        "actionId": "open_menu",
+        "actionParameter": {
+          "menu": "131",
+          "fixedMenu": "dining",
+          "categories": [],
+          "custom": "",
+          "app": "10",
+          "image": "",
+          "channel": "",
+          "language": "2",
+          "gridOrder": "",
+          "url": "",
+          "appParamType": "none"
+        },
+        "isActionCompatible": true,
+        "temp": {
+          "buttonText": {
+            "id": null,
+            "xRelative": null,
+            "yRelative": null,
+            "text": null,
+            "fontSize": null,
+            "fontColor": null,
+            "fontFamily": null,
+            "textAlign": null
+          },
+          "buttonImage": {
+            "id": null,
+            "source": null,
+            "xRelative": null,
+            "yRelative": null,
+            "width": null,
+            "height": null,
+            "scaleX": null,
+            "scaleY": null
+          }
+        }
+      },
+      "objects": [
+        {
+          "id": "Button_Rectangle_6votw",
+          "component": "Button_Rectangle",
+          "transform": {
+            "x": 1159.9911764705882,
+            "y": 749.9911764705882,
+            "width": 199.9941176470588,
+            "height": 199.9941176470588,
+            "layer_index": -1,
+            "opacity": 0,
+            "raw": {
+              "width": 199.9941176470588,
+              "height": 199.9941176470588,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#6d1810"
+          },
+          "hover_color": "#6d1810",
+          "hover_opacity": 1,
+          "radius_corner": 0.26
+        },
+        {
+          "id": "Button_Image_3j7el",
+          "component": "Button_Image",
+          "transform": {
+            "x": 1205.6970588235295,
+            "y": 779.7794117647059,
+            "width": 112.0344919786095,
+            "height": 112.0344919786095,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 451.7647058823529,
+              "height": 451.7647058823529,
+              "scaleX": 0.43763473429144334,
+              "scaleY": 0.43763473429144334
+            }
+          },
+          "source_asli": "6373105b10974_dining.png?1758087070523",
+          "source": "media/icon/png/material-symbols--hand-meal-outline.png",
+          "multilanguage": [
+            {
+              "lg_id": "2",
+              "source": "placeholder/placeholder_button_image.png",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 132.35294117647058,
+              "height": 132.35294117647058,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.5170036764705882,
+                "scaleY": 0.5170036764705882
+              }
+            },
+            {
+              "lg_id": "1",
+              "source": "6373105b10974_dining.png?1758087070523",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 112.0344919786095,
+              "height": 112.0344919786095,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.43763473429144334,
+                "scaleY": 0.43763473429144334
+              }
+            },
+            {
+              "lg_id": "18",
+              "source": "placeholder/placeholder_button_image.png",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 132.35294117647058,
+              "height": 132.35294117647058,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.5170036764705882,
+                "scaleY": 0.5170036764705882
+              }
+            }
+          ]
+        },
+        {
+          "id": "Button_Text_sqxer",
+          "component": "Button_Text",
+          "transform": {
+            "x": 1195,
+            "y": 900.0264705882354,
+            "width": 136.68619791666666,
+            "height": 32.01666666666666,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 136.68619791666666,
+              "height": 32.01666666666666,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "text": "Restaurant",
+          "text_align": "center",
+          "font": {
+            "font_color": "#ffffff",
+            "font_size": 28.33333333333333,
+            "font_family": "Roboto",
+            "font_weight": "normal",
+            "font_style": "normal"
+          },
+          "multilanguage": [
+            {
+              "lg_id": "2",
+              "text": "Button"
+            },
+            {
+              "lg_id": "1",
+              "text": "Restaurant",
+              "width": 136.68619791666666,
+              "height": 32.01666666666666
+            },
+            {
+              "lg_id": "18",
+              "text": "Button"
+            }
+          ]
+        }
+      ],
+      "parameter_source": "menu",
+      "parameter_source_value": ""
+    },
+    {
+      "id": "TextDynamic_4osz5",
+      "component": "TextDynamic",
+      "transform": {
+        "x": 1444.007486631016,
+        "y": 196.283422459893,
+        "width": 366.81176470588224,
+        "height": 36.89839572192518,
+        "layer_index": 26,
+        "opacity": 1,
+        "raw": {
+          "width": 366.81176470588224,
+          "height": 36.89839572192518,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "scroll_direction": "Horizontal",
+      "scroll_speed": 100,
+      "parameter_source": "menu",
+      "parameter_source_value": "",
+      "text": "%network/status%",
+      "text_align": "right",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 28,
+        "font_family": "Roboto",
+        "font_opacity": 1,
+        "font_weight": "normal",
+        "font_style": "normal"
+      },
+      "metadata": {
+        "textDynamicId": "TextDynamic_4osz5",
+        "layerIndex": 26,
+        "scrollDirection": "Horizontal",
+        "scrollSpeed": 100,
+        "parameterSource": "menu",
+        "parameterSourceValue": "",
+        "multilanguage": [
+          {
+            "lg_id": "2",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "width": 211.76470588235293,
+            "height": 211.76470588235293
+          },
+          {
+            "lg_id": "1",
+            "text": "%network/status%",
+            "width": 366.81176470588224,
+            "height": 36.89839572192518
+          },
+          {
+            "lg_id": "18",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "width": 211.76470588235293,
+            "height": 211.76470588235293
+          }
+        ]
+      },
+      "multilanguage": [
+        {
+          "lg_id": "2",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "width": 211.76470588235293,
+          "height": 211.76470588235293
+        },
+        {
+          "lg_id": "1",
+          "text": "%network/status%",
+          "width": 366.81176470588224,
+          "height": 36.89839572192518
+        },
+        {
+          "lg_id": "18",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "width": 211.76470588235293,
+          "height": 211.76470588235293
+        }
+      ]
+    },
+    {
+      "id": "Button_afk8l",
+      "component": "Button",
+      "transform": {
+        "x": 959.9911764705882,
+        "y": 749.9911764705882,
+        "width": 199.9941176470587,
+        "height": 199.9941176470587,
+        "layer_index": 27,
+        "opacity": 1,
+        "raw": {
+          "width": 199.9941176470587,
+          "height": 199.9941176470587,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "group_id": "Button_afk8l",
+      "menu": {
+        "dm_id": "5",
+        "dm_name": "abisena promo"
+      },
+      "language": {
+        "lg_id": "2",
+        "lg_name": "English"
+      },
+      "is_enable_text": true,
+      "is_enable_image": true,
+      "scroll_x": true,
+      "scroll_y": true,
+      "action_id": "open_menu",
+      "action_parameter": {
+        "menu": "5",
+        "fixedMenu": "tv_channel",
+        "categories": [],
+        "custom": "",
+        "app": "10",
+        "image": "",
+        "channel": "",
+        "language": "2",
+        "gridOrder": "",
+        "url": "",
+        "appParamType": "none"
+      },
+      "is_action_compatible": true,
+      "metadata": {
+        "groupId": "Button_afk8l",
+        "layerIndex": 27,
+        "dmId": "131",
+        "dmName": "abisena promo",
+        "lgId": "2",
+        "lgName": "English",
+        "isEnableText": true,
+        "isEnableImage": true,
+        "scrollX": true,
+        "scrollY": true,
+        "actionId": "open_menu",
+        "actionParameter": {
+          "menu": "131",
+          "fixedMenu": "information",
+          "categories": [],
+          "custom": "",
+          "app": "5",
+          "image": "",
+          "channel": "",
+          "language": "2",
+          "gridOrder": "",
+          "url": "",
+          "appParamType": "none"
+        },
+        "isActionCompatible": true,
+        "temp": {
+          "buttonText": {
+            "id": null,
+            "xRelative": null,
+            "yRelative": null,
+            "text": null,
+            "fontSize": null,
+            "fontColor": null,
+            "fontFamily": null,
+            "textAlign": null
+          },
+          "buttonImage": {
+            "id": null,
+            "source": null,
+            "xRelative": null,
+            "yRelative": null,
+            "width": null,
+            "height": null,
+            "scaleX": null,
+            "scaleY": null
+          }
+        }
+      },
+      "objects": [
+        {
+          "id": "Button_Rectangle_w1fr0",
+          "component": "Button_Rectangle",
+          "transform": {
+            "x": 959.9911764705882,
+            "y": 749.9911764705882,
+            "width": 199.9941176470588,
+            "height": 199.9941176470588,
+            "layer_index": -1,
+            "opacity": 0,
+            "raw": {
+              "width": 199.9941176470588,
+              "height": 199.9941176470588,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#6d1810"
+          },
+          "hover_color": "#6d1810",
+          "hover_opacity": 1,
+          "radius_corner": 0.26
+        },
+        {
+          "id": "Button_Image_7s5v1",
+          "component": "Button_Image",
+          "transform": {
+            "x": 1005.6877005347598,
+            "y": 779.7668449197857,
+            "width": 107.7272727272728,
+            "height": 107.7272727272728,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 451.7647058823529,
+              "height": 451.7647058823529,
+              "scaleX": 0.4208096590909094,
+              "scaleY": 0.4208096590909094
+            }
+          },
+          "source_asli": "637310630b0d4_hotel-info.png?1758087001712",
+          "source": "media/icon/png/lucide--hotel.png",
+          "multilanguage": [
+            {
+              "lg_id": "2",
+              "source": "placeholder/placeholder_button_image.png",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 132.35294117647058,
+              "height": 132.35294117647058,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.5170036764705882,
+                "scaleY": 0.5170036764705882
+              }
+            },
+            {
+              "lg_id": "1",
+              "source": "637310630b0d4_hotel-info.png?1758087001712",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 107.7272727272728,
+              "height": 107.7272727272728,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.4208096590909094,
+                "scaleY": 0.4208096590909094
+              }
+            },
+            {
+              "lg_id": "18",
+              "source": "placeholder/placeholder_button_image.png",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 132.35294117647058,
+              "height": 132.35294117647058,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.5170036764705882,
+                "scaleY": 0.5170036764705882
+              }
+            }
+          ]
+        },
+        {
+          "id": "Button_Text_hg13c",
+          "component": "Button_Text",
+          "transform": {
+            "x": 979.9999999999997,
+            "y": 900.0088235294119,
+            "width": 161.90673828125,
+            "height": 32.01666666666666,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 161.90673828125,
+              "height": 32.01666666666666,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "text": "Hotel Guides",
+          "text_align": "center",
+          "font": {
+            "font_color": "#ffffff",
+            "font_size": 28.33333333333333,
+            "font_family": "Roboto",
+            "font_weight": "normal",
+            "font_style": "normal"
+          },
+          "multilanguage": [
+            {
+              "lg_id": "2",
+              "text": "Button"
+            },
+            {
+              "lg_id": "1",
+              "text": "Hotel Guides",
+              "width": 161.90673828125,
+              "height": 32.01666666666666
+            },
+            {
+              "lg_id": "18",
+              "text": "Button"
+            }
+          ]
+        }
+      ],
+      "parameter_source": "menu",
+      "parameter_source_value": ""
+    },
+    {
+      "id": "Button_q531n",
+      "component": "Button",
+      "transform": {
+        "x": 1360.008823529411,
+        "y": 750.0088235294118,
+        "width": 199.9941176470587,
+        "height": 199.9941176470587,
+        "layer_index": 28,
+        "opacity": 1,
+        "raw": {
+          "width": 199.9941176470587,
+          "height": 199.9941176470587,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "group_id": "Button_q531n",
+      "menu": {
+        "dm_id": "17",
+        "dm_name": "GM Greeting"
+      },
+      "language": {
+        "lg_id": "2",
+        "lg_name": "English"
+      },
+      "is_enable_text": true,
+      "is_enable_image": true,
+      "scroll_x": true,
+      "scroll_y": true,
+      "action_id": "open_menu",
+      "action_parameter": {
+        "menu": "17",
+        "fixedMenu": "information",
+        "categories": [],
+        "custom": "",
+        "app": "10",
+        "image": "",
+        "channel": "",
+        "language": "2",
+        "gridOrder": "",
+        "url": "",
+        "appParamType": "none"
+      },
+      "is_action_compatible": true,
+      "metadata": {
+        "groupId": "Button_q531n",
+        "layerIndex": 28,
+        "dmId": "131",
+        "dmName": "abisena promo",
+        "lgId": "2",
+        "lgName": "English",
+        "isEnableText": true,
+        "isEnableImage": true,
+        "scrollX": true,
+        "scrollY": true,
+        "actionId": "open_menu",
+        "actionParameter": {
+          "menu": "248",
+          "fixedMenu": "information",
+          "categories": [],
+          "custom": "",
+          "app": "5",
+          "image": "",
+          "channel": "",
+          "language": "2",
+          "gridOrder": "",
+          "url": "",
+          "appParamType": "none"
+        },
+        "isActionCompatible": true,
+        "temp": {
+          "buttonText": {
+            "id": null,
+            "xRelative": null,
+            "yRelative": null,
+            "text": null,
+            "fontSize": null,
+            "fontColor": null,
+            "fontFamily": null,
+            "textAlign": null
+          },
+          "buttonImage": {
+            "id": null,
+            "source": null,
+            "xRelative": null,
+            "yRelative": null,
+            "width": null,
+            "height": null,
+            "scaleX": null,
+            "scaleY": null
+          }
+        }
+      },
+      "objects": [
+        {
+          "id": "Button_Rectangle_jwwrt",
+          "component": "Button_Rectangle",
+          "transform": {
+            "x": 1360.008823529411,
+            "y": 750.0088235294118,
+            "width": 199.9941176470588,
+            "height": 199.9941176470588,
+            "layer_index": -1,
+            "opacity": 0,
+            "raw": {
+              "width": 199.9941176470588,
+              "height": 199.9941176470588,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#6d1810"
+          },
+          "hover_color": "#6d1810",
+          "hover_opacity": 1,
+          "radius_corner": 0.26
+        },
+        {
+          "id": "Button_Image_bvqwx",
+          "component": "Button_Image",
+          "transform": {
+            "x": 1406.7697860962562,
+            "y": 777.6136363636363,
+            "width": 108.11657754010734,
+            "height": 108.11657754010734,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 451.7647058823529,
+              "height": 451.7647058823529,
+              "scaleX": 0.4223303810160443,
+              "scaleY": 0.4223303810160443
+            }
+          },
+          "source_asli": "68ca4ee188e83_greeting.png",
+          "source": "media/icon/png/la--praying-hands.png",
+          "multilanguage": [
+            {
+              "lg_id": "2",
+              "source": "placeholder/placeholder_button_image.png",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 132.35294117647058,
+              "height": 132.35294117647058,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.5170036764705882,
+                "scaleY": 0.5170036764705882
+              }
+            },
+            {
+              "lg_id": "1",
+              "source": "68ca4ee188e83_greeting.png",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 108.11657754010734,
+              "height": 108.11657754010734,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.4223303810160443,
+                "scaleY": 0.4223303810160443
+              }
+            },
+            {
+              "lg_id": "18",
+              "source": "placeholder/placeholder_button_image.png",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 132.35294117647058,
+              "height": 132.35294117647058,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.5170036764705882,
+                "scaleY": 0.5170036764705882
+              }
+            }
+          ]
+        },
+        {
+          "id": "Button_Text_qyao6",
+          "component": "Button_Text",
+          "transform": {
+            "x": 1385,
+            "y": 900.0441176470589,
+            "width": 157.35514322916666,
+            "height": 32.01666666666666,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 157.35514322916666,
+              "height": 32.01666666666666,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "text": "GM Greeting",
+          "text_align": "center",
+          "font": {
+            "font_color": "#ffffff",
+            "font_size": 28.33333333333333,
+            "font_family": "Roboto",
+            "font_weight": "normal",
+            "font_style": "normal"
+          },
+          "multilanguage": [
+            {
+              "lg_id": "2",
+              "text": "Button"
+            },
+            {
+              "lg_id": "1",
+              "text": "GM Greeting",
+              "width": 157.35514322916666,
+              "height": 32.01666666666666
+            },
+            {
+              "lg_id": "18",
+              "text": "Button"
+            }
+          ]
+        }
+      ],
+      "parameter_source": "menu",
+      "parameter_source_value": ""
+    },
+    {
+      "id": "Button_uisot",
+      "component": "Button",
+      "transform": {
+        "x": 1707.058823529419,
+        "y": 426.4705882352951,
+        "width": 200,
+        "height": 200,
+        "layer_index": 46,
+        "opacity": 1,
+        "raw": {
+          "width": 200,
+          "height": 200,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "group_id": "Button_uisot",
+      "menu": {
+        "dm_id": "16",
+        "dm_name": ""
+      },
+      "language": {
+        "lg_id": "1",
+        "lg_name": "Indonesian"
+      },
+      "is_enable_text": true,
+      "is_enable_image": true,
+      "scroll_x": true,
+      "scroll_y": true,
+      "action_id": "open_menu",
+      "action_parameter": {
+        "menu": "16",
+        "fixedMenu": "",
+        "categories": [],
+        "custom": "",
+        "app": "",
+        "image": "",
+        "channel": "",
+        "language": "1",
+        "gridOrder": "",
+        "url": "",
+        "appParamType": "none"
+      },
+      "is_action_compatible": true,
+      "parameter_source": "menu",
+      "parameter_source_value": "",
+      "metadata": {
+        "groupId": "Button_uisot",
+        "layerIndex": 46,
+        "dmId": "",
+        "dmName": "",
+        "lgId": "1",
+        "lgName": "Indonesian",
+        "isEnableText": true,
+        "isEnableImage": true,
+        "scrollX": true,
+        "scrollY": true,
+        "actionId": "open_menu",
+        "actionParameter": {
+          "menu": "",
+          "fixedMenu": "",
+          "categories": [],
+          "custom": "",
+          "app": "",
+          "image": "",
+          "channel": "",
+          "language": "1",
+          "gridOrder": "",
+          "url": "",
+          "appParamType": "none"
+        },
+        "isActionCompatible": true
+      },
+      "objects": [
+        {
+          "id": "Button_Rectangle_0q9q4",
+          "component": "Button_Rectangle",
+          "transform": {
+            "x": 1707.058823529419,
+            "y": 426.4705882352951,
+            "width": 200,
+            "height": 200,
+            "layer_index": -1,
+            "opacity": 0,
+            "raw": {
+              "width": 200,
+              "height": 200,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#6d1810"
+          },
+          "hover_color": "#6d1810",
+          "hover_opacity": 1,
+          "radius_corner": 0.26
+        },
+        {
+          "id": "Button_Image_sw1np",
+          "component": "Button_Image",
+          "transform": {
+            "x": 1752.0588235294185,
+            "y": 444.470588235295,
+            "width": 113,
+            "height": 113,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 264,
+              "height": 264,
+              "scaleX": 0.75,
+              "scaleY": 0.75
+            }
+          },
+          "source_asli": "",
+          "source": "media/icon/png/promo_icon.png",
+          "string_dynamic": null,
+          "parameter_source": "menu",
+          "parameter_source_value": "",
+          "multilanguage": [
+            {
+              "lg_id": "1",
+              "source": "",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 113,
+              "height": 113,
+              "raw": {
+                "width": 264,
+                "height": 264,
+                "scaleX": 0.75,
+                "scaleY": 0.75
+              }
+            }
+          ]
+        },
+        {
+          "id": "Button_Text_hn0ez",
+          "component": "Button_Text",
+          "transform": {
+            "x": 1737.0588235294185,
+            "y": 576.4705882352948,
+            "width": 145,
+            "height": 32,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 145,
+              "height": 32,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "text": "Promo",
+          "text_align": "center",
+          "font": {
+            "font_color": "#ffffff",
+            "font_size": 28,
+            "font_family": "Roboto",
+            "font_weight": "normal",
+            "font_style": "normal"
+          },
+          "multilanguage": [
+            {
+              "lg_id": "1",
+              "text": "Button",
+              "width": 145,
+              "height": 32
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SDUI Visualizer</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans, sans-serif);font-size:14px;color:var(--color-text-primary, #333)}
+.app{display:flex;flex-direction:column;height:100vh;min-height:600px;background:var(--color-background-tertiary, #f4f4f4)}
+
+/* Topbar & Mode Switcher */
+.topbar{display:flex;align-items:center;gap:12px;padding:8px 12px;background:var(--color-background-primary, #fff);border-bottom:0.5px solid var(--color-border-tertiary, #ddd);flex-wrap:wrap}
+.topbar h1{font-size:13px;font-weight:600;margin-right:12px;}
+.mode-tabs{display:flex;gap:4px;background:#eee;padding:3px;border-radius:6px;border:0.5px solid #ccc;}
+.mode-btn{padding:5px 12px;font-size:11px;font-weight:600;border:none;background:transparent;cursor:pointer;border-radius:4px;color:#555;transition:all 0.2s;}
+.mode-btn:hover{background:rgba(0,0,0,0.05)}
+.mode-btn.active{background:#fff;color:#6d1810;box-shadow:0 1px 3px rgba(0,0,0,0.1)}
+
+/* Sub-Topbar (Khusus Scene) */
+.sub-topbar{padding:6px 12px;background:#f9f9f9;border-bottom:0.5px solid #ddd;display:flex;gap:4px;align-items:center;flex-wrap:wrap;}
+.scene-tabs{display:flex;gap:4px;flex-wrap:wrap;align-items:center;}
+.scene-tab{font-size:11px;padding:4px 10px;border:0.5px solid var(--color-border-secondary, #ccc);border-radius:4px;cursor:pointer;background:var(--color-background-secondary, #eee);color:var(--color-text-secondary, #555);transition:all .15s;white-space:nowrap}
+.scene-tab.active{background:#6d1810;color:#fff;border-color:#6d1810}
+.scene-tab.add-btn{background:#1e9650;color:#fff;border-color:#1e9650;font-weight:bold;}
+
+.main{display:flex;flex:1;overflow:hidden}
+.sidebar{width:220px;flex-shrink:0;background:var(--color-background-primary, #fff);border-right:0.5px solid var(--color-border-tertiary, #ddd);display:flex;flex-direction:column;overflow:hidden}
+.sidebar-tab{display:flex;border-bottom:0.5px solid var(--color-border-tertiary, #ddd)}
+.sidebar-tab button{flex:1;padding:7px 2px;font-size:10px;border:none;background:var(--color-background-secondary, #eee);color:var(--color-text-secondary, #555);cursor:pointer}
+.sidebar-tab button.active{background:var(--color-background-primary, #fff);color:var(--color-text-primary, #333);font-weight:600;border-bottom:2px solid #6d1810}
+.sidebar-scroll{flex:1;overflow-y:auto;padding:6px}
+
+/* Menu & Data List Items */
+.menu-item{padding:6px 8px;border-radius:4px;cursor:pointer;border:0.5px solid transparent;margin-bottom:3px}
+.menu-item:hover{background:var(--color-background-secondary, #eee)}
+.menu-item.active{background:rgba(109,24,16,0.08);border-color:rgba(109,24,16,0.2)}
+.menu-item-name{font-size:11px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.menu-item-meta{font-size:10px;color:var(--color-text-tertiary, #888);margin-top:2px}
+.badge{display:inline-block;font-size:9px;padding:1px 5px;border-radius:3px;margin-left:4px;vertical-align:middle}
+.badge-static{background:rgba(56,100,200,0.12);color:#185fa5}
+.badge-dynamic{background:rgba(30,150,80,0.1);color:#3b6d11}
+.badge-apps{background:rgba(200,120,30,0.12);color:#854f0b}
+
+/* Canvas & Placeholder Area */
+.canvas-area{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:12px;overflow:auto;background:var(--color-background-secondary, #e5e5e5)}
+.canvas-label{font-size:11px;color:var(--color-text-tertiary, #888);margin-bottom:6px}
+.canvas-frame{position:relative;background:#1a1a2e;overflow:hidden;flex-shrink:0;box-shadow: 0 4px 12px rgba(0,0,0,0.1); user-select: none;}
+.center-placeholder{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;background:var(--color-background-secondary, #e5e5e5);color:#888;}
+.center-placeholder svg{margin-bottom:12px;opacity:0.5;}
+
+.editor-panel{width:250px;flex-shrink:0;display:flex;flex-direction:column;background:var(--color-background-primary, #fff);border-left:0.5px solid var(--color-border-tertiary, #ddd);overflow:hidden}
+.editor-header{padding:8px 12px;border-bottom:0.5px solid var(--color-border-tertiary, #ddd);font-size:12px;font-weight:500;color:var(--color-text-secondary, #555)}
+.editor-scroll{flex:1;overflow-y:auto;padding:8px}
+
+.prop-group{margin-bottom:8px;border:0.5px solid var(--color-border-tertiary, #ddd);border-radius:4px;overflow:hidden}
+.prop-group-title{font-size:10px;font-weight:500;padding:5px 8px;background:var(--color-background-secondary, #eee);color:var(--color-text-secondary, #555);border-bottom:0.5px solid var(--color-border-tertiary, #ddd)}
+.prop-row{display:flex;align-items:center;padding:3px 8px;gap:6px;border-bottom:0.5px solid var(--color-border-tertiary, #ddd)}
+.prop-row:last-child{border-bottom:none}
+.prop-label{font-size:10px;color:var(--color-text-secondary, #555);flex:0 0 72px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.prop-input{flex:1;min-width:0;font-size:11px;padding:2px 5px;border:0.5px solid var(--color-border-secondary, #ccc);border-radius:3px;background:var(--color-background-secondary, #fff);color:var(--color-text-primary, #333);height:22px}
+.prop-input:focus{outline:none;border-color:#6d1810}
+.prop-select{flex:1;min-width:0;font-size:11px;padding:2px 4px;border:0.5px solid var(--color-border-secondary, #ccc);border-radius:3px;background:var(--color-background-secondary, #fff);color:var(--color-text-primary, #333);height:22px}
+.color-preview{width:16px;height:16px;border-radius:2px;border:0.5px solid var(--color-border-secondary, #ccc);flex-shrink:0}
+.no-selection{display:flex;flex-direction:column;align-items:center;justify-content:center;height:160px;color:var(--color-text-tertiary, #888);font-size:11px;gap:6px;text-align:center}
+
+.component-layer{position:absolute;cursor:grab;box-sizing:border-box}
+.component-layer:hover{outline:1.5px dashed rgba(109,24,16,0.5)}
+.component-layer:active{cursor:grabbing;}
+.component-layer.selected{outline:2px solid #6d1810!important}
+.comp-label{position:absolute;top:-16px;left:0;font-size:9px;background:#6d1810;color:#fff;padding:1px 4px;border-radius:2px;white-space:nowrap;pointer-events:none;display:none;z-index:999;}
+.component-layer.selected .comp-label{display:block}
+
+.zoom-bar{display:flex;align-items:center;gap:8px;padding:5px 10px;border-top:0.5px solid var(--color-border-tertiary, #ddd)}
+.zoom-bar label{font-size:10px;color:var(--color-text-secondary, #555)}
+.zoom-val{font-size:10px;font-weight:500;min-width:28px}
+
+.btn-apply{width:100%;background:#6d1810;color:#fff;border:none;padding:6px;border-radius:4px;font-size:11px;cursor:pointer;font-weight:500;margin-top:6px;text-align:center;}
+.btn-apply:hover{background:#8a1e10}
+.scene-editor-section{padding:8px}
+.scene-field{margin-bottom:8px}
+.scene-field label{display:block;font-size:10px;color:var(--color-text-secondary, #555);margin-bottom:3px}
+.scene-field input,.scene-field select{width:100%;font-size:11px;padding:3px 6px;border:0.5px solid var(--color-border-secondary, #ccc);border-radius:3px;background:var(--color-background-secondary, #fff);color:var(--color-text-primary, #333);height:24px}
+.scene-field input:focus,.scene-field select:focus{outline:none;border-color:#6d1810}
+.btn-sm{font-size:10px;padding:4px 8px;border:0.5px solid var(--color-border-secondary, #ccc);border-radius:3px;cursor:pointer;background:var(--color-background-secondary, #eee);color:var(--color-text-secondary, #333)}
+.btn-sm:hover{border-color:#6d1810;color:#6d1810}
+.btn-danger{border-color:rgba(200,50,50,0.4);color:#a32d2d;background:rgba(200,50,50,0.05)}
+.btn-danger:hover{background:rgba(200,50,50,0.15)}
+.divider{height:0.5px;background:var(--color-border-tertiary, #ddd);margin:12px 0}
+.info-box{font-size:10px;color:var(--color-text-tertiary, #888);padding:6px 8px;background:var(--color-background-secondary, #eee);border-radius:4px;line-height:1.5;margin-top:8px;}
+
+/* Tree List CSS */
+.tree-item { padding: 5px 8px; font-size: 11px; cursor: pointer; border: 0.5px solid transparent; border-radius: 4px; margin-bottom: 2px; display: flex; align-items: center; gap: 6px; transition: all 0.1s;}
+.tree-item:hover { background: var(--color-background-secondary, #eee); }
+.tree-item.active { background: rgba(109,24,16,0.1); border-color: rgba(109,24,16,0.3); color: #6d1810; font-weight: 500; }
+.tree-icon { font-size: 12px; opacity: 0.7; width: 14px; text-align: center; }
+.tree-label { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tree-id { font-size: 9px; opacity: 0.5; margin-left: 4px; font-weight: normal; }
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateX(-50%) translateY(8px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+</style>
+</head>
+<body>
+
+<div class="app">
+<div class="topbar">
+  <div style="width:18px;height:18px;background:#6d1810;border-radius:3px;display:flex;align-items:center;justify-content:center;flex-shrink:0">
+    <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><rect x="1" y="1" width="4" height="4" rx="0.5" fill="white"/><rect x="7" y="1" width="4" height="4" rx="0.5" fill="white" opacity="0.6"/><rect x="1" y="7" width="4" height="4" rx="0.5" fill="white" opacity="0.6"/><rect x="7" y="7" width="4" height="4" rx="0.5" fill="white"/></svg>
+  </div>
+  <h1>SDUI Control Panel</h1>
+  
+  <div class="mode-tabs">
+    <button id="modeBtn_layout" class="mode-btn active" onclick="setMode('layout')">🎨 Layout Editor</button>
+    <button id="modeBtn_master" class="mode-btn" onclick="setMode('master')">🗂️ Master Layouts</button>
+    <button id="modeBtn_menu" class="mode-btn" onclick="setMode('menu')">🗺️ Menu Routes</button>
+    <button id="modeBtn_data" class="mode-btn" onclick="setMode('data')">🗄️ Grid Data API</button>
+    <button class="mode-btn" id="modeBtn_device" onclick="setMode('device')">🖥 Devices</button>
+  </div>
+  
+  <div style="display:flex;gap:6px;margin-left:auto;align-items:center;">
+    <label class="btn-sm" style="cursor:pointer;" title="Import layout JSON file">
+      📂 Load JSON
+      <input type="file" accept=".json" style="display:none" onchange="importJsonFile(event)">
+    </label>
+    <button id="syncBtn" class="btn-sm" style="background:#1e9650;color:white;border-color:#1e9650;font-weight:bold;" onclick="syncToServer()">💾 Sync UI & Menus</button>
+  </div>
+</div>
+
+<div class="sub-topbar" id="layoutSubbar">
+  <div class="scene-tabs" id="sceneTabs"></div>
+  <div style="margin-left: auto; display: flex; gap: 4px;">
+    <button class="btn-sm" onclick="undo()" title="Ctrl+Z" style="font-size:11px;">↩ Undo</button>
+    <button class="btn-sm" onclick="redo()" title="Ctrl+Y" style="font-size:11px;">↪ Redo</button>
+  </div>
+</div>
+
+<div class="main">
+  <div class="sidebar">
+    <div class="sidebar-tab" id="layoutSidebarTabs">
+      <button id="tabSceneBtn" onclick="switchLayoutTab('scene')">Scene Info</button>
+      <button id="tabLayersBtn" class="active" onclick="switchLayoutTab('layers')">Layers</button>
+    </div>
+    <div class="sidebar-scroll" id="sidebarContent"></div>
+  </div>
+
+  <div class="canvas-area" id="canvasArea">
+    <div class="canvas-label" id="canvasLabel">1920 × 1080 px</div>
+    <div class="canvas-frame" id="canvasFrame"></div>
+    <div class="zoom-bar" id="zoomContainer" style="width:100%;max-width:660px">
+      <label>Zoom</label>
+      <input type="range" min="15" max="100" value="34" id="zoomSlider" step="1" style="flex:1">
+      <span class="zoom-val" id="zoomVal">34%</span>
+    </div>
+  </div>
+
+  <div class="center-placeholder" id="centerPlaceholder" style="display:none;">
+    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 6h16M4 12h16m-7 6h7"/></svg>
+    <h2>Pilih Item di Panel Kiri</h2>
+    <p style="margin-top:8px;">Detail dan pengaturan properti akan muncul di panel sebelah kanan.</p>
+  </div>
+
+  <div class="editor-panel">
+    <div class="editor-header" id="editorHeader">Properties</div>
+    <div class="editor-scroll" id="editorScroll"></div>
+    </div>
+</div>
+</div>
+
+<script type="module" src="main.js"></script>

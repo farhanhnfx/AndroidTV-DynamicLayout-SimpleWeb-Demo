@@ -1,0 +1,27 @@
+{
+  "status": true,
+  "results": {
+    "room_list": [
+      {
+        "device": "S50",
+        "room_number": "Room S50",
+        "guest_name": "Lorem Ipsum"
+      },
+      {
+        "device": "lenovo4977a",
+        "room_number": "4F",
+        "guest_name": "Mr. John Doe"
+      },
+      {
+        "device": "AOSP TV on x86",
+        "room_number": "Room 5B",
+        "guest_name": "Mr. Agus Budiyanto"
+      },
+      {
+        "device": "A18",
+        "room_number": "Room 13E",
+        "guest_name": "Mr. Sutijo"
+      }
+    ]
+  }
+}

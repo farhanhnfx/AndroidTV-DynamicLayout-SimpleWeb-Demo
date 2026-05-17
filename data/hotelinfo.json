@@ -1,0 +1,574 @@
+{
+  "dm_id": 5,
+  "layout_name": "Demo Alana - Hotel Info [Dev Test]",
+  "scene": "Demo Alana - Hotel Info [Dev Test]",
+  "base_layout": {
+    "width": "1920",
+    "height": "1080"
+  },
+  "objects": [
+    {
+      "id": "Rectangle_is0iw",
+      "component": "Rectangle",
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080,
+        "layer_index": 0,
+        "opacity": "0.9",
+        "raw": {
+          "width": 1920,
+          "height": 1080,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "radius_corner": 0,
+      "background": {
+        "background_color": "#000000",
+        "background_color_from_template": false
+      }
+    },
+    {
+      "id": "Rectangle_8ge1e",
+      "component": "Rectangle",
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "width": 399.99999999999994,
+        "height": 1080,
+        "layer_index": 3,
+        "opacity": "0.81",
+        "raw": {
+          "width": 399.99999999999994,
+          "height": 1080,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "radius_corner": 0,
+      "background": {
+        "background_color": "#000000",
+        "background_color_from_template": false
+      }
+    },
+    {
+      "id": "ButtonGrid_whyav",
+      "component": "ButtonGrid",
+      "transform": {
+        "x": 0,
+        "y": 156.8136032282433,
+        "width": 399.99999999999994,
+        "height": 923.1863967717567,
+        "layer_index": 4,
+        "opacity": 0,
+        "raw": {
+          "width": 399.99999999999994,
+          "height": 923.1863967717567,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "button_grid_id": "ButtonGrid_whyav",
+      "order": 1,
+      "layout": "fixed_column_only",
+      "horizontal_alignment": "left",
+      "vertical_alignment": "top",
+      "column": "1",
+      "row": 3,
+      "item_width": 399.99999999999994,
+      "item_height": 75,
+      "item_horizontal_gap": 9.999999999999995,
+      "item_vertical_gap": 4.999999999999997,
+      "scroll_horizontal_offset": 0,
+      "scroll_vertical_offset": 0,
+      "content_type": "info_items",
+      "parameter_source": "menu",
+      "parameter_source_value": 1,
+      "item_data": "%info/item%",
+      "item_config": {
+        "is_enable_name_text": true,
+        "is_enable_desc_text": false,
+        "is_enable_price_text": false,
+        "is_enable_qty_text": false,
+        "is_enable_qty_rect": false,
+        "is_enable_image": false,
+        "is_enable_text_1": false,
+        "is_enable_text_2": false,
+        "is_enable_text_3": false,
+        "string_name_text": "%info/item/name%",
+        "string_desc_text": "%info/item/description%",
+        "string_price_text": "",
+        "string_qty_text": "%dining/item/qty%",
+        "string_image": "%info/item/image%",
+        "string_text_1": "",
+        "string_text_2": "",
+        "string_text_3": ""
+      },
+      "item_component": {
+        "rectangle": {
+          "transform": {
+            "x": 0,
+            "y": 0,
+            "width": 399.99999999999994,
+            "height": 75,
+            "opacity": 1,
+            "raw": {
+              "width": 399.99999999999994,
+              "height": 75,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#000000"
+          },
+          "hover_color_from_template": true,
+          "hover_color": "#C30000",
+          "hover_opacity": 1,
+          "radius_corner": 0
+        },
+        "name_text": {
+          "transform": {
+            "x": 31.362378778207354,
+            "y": 19.08651116706397,
+            "width": 351.62713328911684,
+            "height": 44.989633465222276,
+            "opacity": 1,
+            "raw": {
+              "width": 351.62713328911684,
+              "height": 44.989633465222276,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "%info/item/name%",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "desc_text": {
+          "transform": {
+            "x": 12,
+            "y": 49,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "%info/item/description%",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "price_text": {
+          "transform": {
+            "x": 12,
+            "y": 49,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "qty_text": {
+          "transform": {
+            "x": 12,
+            "y": 135,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "qty_rect": {
+          "transform": {
+            "x": 0,
+            "y": 0,
+            "width": 35.99999999999999,
+            "height": 35.99999999999999,
+            "opacity": 1,
+            "raw": {
+              "width": 35.99999999999999,
+              "height": 35.99999999999999,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#d27a0a"
+          },
+          "hover_color_from_template": false,
+          "hover_color": "#000000",
+          "hover_opacity": 1,
+          "radius_corner": 0
+        },
+        "image": {
+          "transform": {
+            "x": 99.99999999999999,
+            "y": 0,
+            "width": 99.99999999999999,
+            "height": 75,
+            "opacity": 1,
+            "raw": {
+              "width": 99.99999999999999,
+              "height": 75,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "string_dynamic": "%info/item/image%",
+          "radius_corner": 0
+        },
+        "text_1": {
+          "transform": {
+            "x": 12,
+            "y": 115,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "text_2": {
+          "transform": {
+            "x": 12,
+            "y": 140,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "text_3": {
+          "transform": {
+            "x": 12,
+            "y": 165,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        }
+      },
+      "action_id": "none",
+      "action_parameter": {
+        "menu": "3",
+        "gridOrder": ""
+      }
+    },
+    {
+      "id": "ButtonGrid_Preview_per5o",
+      "component": "ButtonGrid_Preview",
+      "transform": {
+        "x": 0,
+        "y": 156.8136032282433,
+        "width": 399.99999999999994,
+        "height": 954.9999999999999,
+        "layer_index": 5,
+        "opacity": 1,
+        "raw": {
+          "width": 399.99999999999994,
+          "height": 954.9999999999999,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      }
+    },
+    {
+      "id": "Text_us6lk",
+      "component": "Text",
+      "transform": {
+        "x": 34.07239663654239,
+        "y": 55.89621127497309,
+        "width": 253.4765625,
+        "height": 54.23999999999999,
+        "layer_index": 6,
+        "opacity": 1,
+        "raw": {
+          "width": 253.4765625,
+          "height": 54.23999999999999,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "text": "Hotel Guide",
+      "text_align": "left",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 48,
+        "font_family": "Helvetica",
+        "font_weight": "normal",
+        "font_style": "normal"
+      },
+      "multilanguage": [
+        {
+          "lg_id": "1",
+          "text": "Hotel Guide",
+          "width": 253.4765625,
+          "height": 54.23999999999999
+        }
+      ]
+    },
+    {
+      "id": "TextDynamic_bh429",
+      "component": "TextDynamic",
+      "transform": {
+        "x": 436.84964923920455,
+        "y": 857.4734637581647,
+        "width": 1215.2173343309453,
+        "height": 38.53417588954727,
+        "layer_index": 7,
+        "opacity": 1,
+        "raw": {
+          "width": 1215.2173343309453,
+          "height": 38.53417588954727,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "scroll_direction": "Horizontal",
+      "scroll_speed": 100,
+      "parameter_source": "button_grid",
+      "parameter_source_value": "1",
+      "text": "%info/item/name%",
+      "text_align": "left",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 35.99999999999999,
+        "font_family": "Helvetica",
+        "font_opacity": 1,
+        "font_weight": "bold",
+        "font_style": "normal"
+      },
+      "metadata": {
+        "textDynamicId": "TextDynamic_bh429",
+        "layerIndex": 7,
+        "scrollDirection": "Horizontal",
+        "scrollSpeed": 100,
+        "parameterSource": "button_grid",
+        "parameterSourceValue": "1",
+        "multilanguage": [
+          {
+            "lg_id": "1",
+            "text": "%info/item/name%",
+            "width": 1215.2173343309453,
+            "height": 38.53417588954727
+          }
+        ]
+      },
+      "multilanguage": [
+        {
+          "lg_id": "1",
+          "text": "%info/item/name%",
+          "width": 1215.2173343309453,
+          "height": 38.53417588954727
+        }
+      ]
+    },
+    {
+      "id": "Image_uxr21",
+      "component": "Image",
+      "transform": {
+        "x": 404.7958459147114,
+        "y": 149.99999999999994,
+        "width": 1515.2041540852886,
+        "height": 690.1055996844556,
+        "layer_index": 7,
+        "opacity": 1,
+        "raw": {
+          "width": 2823.529411764706,
+          "height": 2823.529411764706,
+          "scaleX": 0.9470025963033054,
+          "scaleY": 0.43131599980278473
+        }
+      },
+      "source": "%info/item/image%",
+      "string_dynamic": "%info/item/image%",
+      "parameter_source": "button_grid",
+      "parameter_source_value": "2",
+      "scale_type": "center_crop",
+      "radius_corner": 0,
+      "multilanguage": [
+        {
+          "lg_id": "1",
+          "source": "placeholder/placeholder_dynamic_image.png?v=1",
+          "stringDynamic": "%info/item/image%",
+          "parameterSource": "button_grid",
+          "parameterSourceValue": "2",
+          "width": 1515.2041540852886,
+          "height": 690.1055996844556,
+          "raw": {
+            "width": 2823.529411764706,
+            "height": 2823.529411764706,
+            "scaleX": 0.9470025963033054,
+            "scaleY": 0.43131599980278473
+          }
+        }
+      ]
+    },
+    {
+      "id": "TextDynamic_54cgj",
+      "component": "TextDynamic",
+      "transform": {
+        "x": 436.85112165169556,
+        "y": 912.3576917047671,
+        "width": 1453.5012176162618,
+        "height": 140.15861414926505,
+        "layer_index": 8,
+        "opacity": 1,
+        "raw": {
+          "width": 1453.5012176162618,
+          "height": 140.15861414926505,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "scroll_direction": "Vertical",
+      "scroll_speed": 100,
+      "parameter_source": "button_grid",
+      "parameter_source_value": "1",
+      "text": "%info/item/description%",
+      "text_align": "left",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 30,
+        "font_family": "Helvetica",
+        "font_opacity": 1,
+        "font_weight": "normal",
+        "font_style": "normal"
+      },
+      "metadata": {
+        "textDynamicId": "TextDynamic_54cgj",
+        "layerIndex": 8,
+        "scrollDirection": "Vertical",
+        "scrollSpeed": 100,
+        "parameterSource": "button_grid",
+        "parameterSourceValue": "1",
+        "multilanguage": [
+          {
+            "lg_id": "1",
+            "text": "%info/item/description%",
+            "width": 1453.5012176162618,
+            "height": 140.15861414926505
+          }
+        ]
+      },
+      "multilanguage": [
+        {
+          "lg_id": "1",
+          "text": "%info/item/description%",
+          "width": 1453.5012176162618,
+          "height": 140.15861414926505
+        }
+      ]
+    }
+  ]
+}

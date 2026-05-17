@@ -1,0 +1,281 @@
+{
+  "dm_id": "1",
+  "layout_name": "The Alana Start",
+  "scene": "The Alana Start",
+  "base_layout": {
+    "width": "1920",
+    "height": "1080"
+  },
+  "objects": [
+    {
+      "id": "Video_au8lg",
+      "component": "Video",
+      "transform": {
+        "x": 2.0062383127344005e-13,
+        "y": -1.0031191563672002e-13,
+        "width": 1920,
+        "height": 1079.9999999999989,
+        "layer_index": 0,
+        "opacity": 1,
+        "raw": {
+          "width": 1920,
+          "height": 1079.9999999999989,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "source_asli": "68cd529bcc9c6_hotelvideo2025-08-2615-35-219aba7612.mp4",
+      "source": "media/video/The Alana Yogyakarta Hotel & Convention Center - Archipelago International (720p, h264).mp4",
+      "string_dynamic": null,
+      "is_streaming": 1,
+      "is_looping": "1",
+      "is_mute": "0",
+      "multilanguage": [
+        {
+          "lg_id": "2",
+          "source": "",
+          "stringDynamic": null,
+          "isStreaming": 0,
+          "parameterSource": "menu",
+          "parameterSourceValue": ""
+        },
+        {
+          "lg_id": "1",
+          "source": "68cd529bcc9c6_hotelvideo2025-08-2615-35-219aba7612.mp4",
+          "stringDynamic": null,
+          "isStreaming": 0
+        },
+        {
+          "lg_id": "18",
+          "source": "",
+          "stringDynamic": null,
+          "isStreaming": 0,
+          "parameterSource": "menu",
+          "parameterSourceValue": ""
+        }
+      ],
+      "parameter_source": "menu",
+      "parameter_source_value": ""
+    },
+    {
+      "id": "Button_spr8f",
+      "component": "Button",
+      "transform": {
+        "x": 1581.6313823163132,
+        "y": 962.6899128268989,
+        "width": 211.76470588235293,
+        "height": 65.46333601933918,
+        "layer_index": 1,
+        "opacity": 1,
+        "raw": {
+          "width": 211.76470588235293,
+          "height": 65.46333601933918,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "group_id": "Button_spr8f",
+      "menu": {
+        "dm_id": "11",
+        "dm_name": "The Alana Welcome"
+      },
+      "language": {
+        "lg_id": "2",
+        "lg_name": "English"
+      },
+      "is_enable_text": true,
+      "is_enable_image": false,
+      "scroll_x": true,
+      "scroll_y": true,
+      "action_id": "open_menu",
+      "action_parameter": {
+        "menu": "11",
+        "fixedMenu": "tv_channel",
+        "categories": [],
+        "custom": "",
+        "app": "20",
+        "image": "",
+        "channel": "",
+        "language": "2",
+        "gridOrder": "",
+        "url": "",
+        "appParamType": "none"
+      },
+      "is_action_compatible": true,
+      "metadata": {
+        "groupId": "Button_spr8f",
+        "layerIndex": 1,
+        "dmId": "131",
+        "dmName": "abisena promo",
+        "lgId": "2",
+        "lgName": "English",
+        "isEnableText": true,
+        "isEnableImage": false,
+        "scrollX": true,
+        "scrollY": true,
+        "actionId": "open_menu",
+        "actionParameter": {
+          "menu": "247",
+          "fixedMenu": "tv_channel",
+          "categories": [],
+          "custom": "",
+          "app": "20",
+          "image": "",
+          "channel": "",
+          "language": "2",
+          "gridOrder": "",
+          "url": "",
+          "appParamType": "none"
+        },
+        "isActionCompatible": true,
+        "temp": {
+          "buttonText": {
+            "id": null,
+            "xRelative": null,
+            "yRelative": null,
+            "text": null,
+            "fontSize": null,
+            "fontColor": null,
+            "fontFamily": null,
+            "textAlign": null
+          },
+          "buttonImage": {
+            "id": "Button_Image_y1o4q",
+            "xRelative": 40.588235294117645,
+            "yRelative": 21.176470588235393,
+            "source": "placeholder/placeholder_button_image.png",
+            "stringDynamic": null,
+            "parameterSource": "menu",
+            "parameterSourceValue": "",
+            "width": 132.35294117647058,
+            "height": 132.35294117647058,
+            "scaleX": 0.5170036764705882,
+            "scaleY": 0.5170036764705882,
+            "multilanguage": [
+              {
+                "lg_id": "2",
+                "source": "placeholder/placeholder_button_image.png",
+                "stringDynamic": null,
+                "parameterSource": "menu",
+                "parameterSourceValue": "",
+                "width": 132.35294117647058,
+                "height": 132.35294117647058,
+                "raw": {
+                  "width": 451.7647058823529,
+                  "height": 451.7647058823529,
+                  "scaleX": 0.5170036764705882,
+                  "scaleY": 0.5170036764705882
+                }
+              },
+              {
+                "lg_id": "1",
+                "source": "placeholder/placeholder_button_image.png",
+                "stringDynamic": null,
+                "parameterSource": "menu",
+                "parameterSourceValue": "",
+                "width": 132.35294117647058,
+                "height": 132.35294117647058,
+                "raw": {
+                  "width": 451.7647058823529,
+                  "height": 451.7647058823529,
+                  "scaleX": 0.5170036764705882,
+                  "scaleY": 0.5170036764705882
+                }
+              },
+              {
+                "lg_id": "18",
+                "source": "placeholder/placeholder_button_image.png",
+                "stringDynamic": null,
+                "parameterSource": "menu",
+                "parameterSourceValue": "",
+                "width": 132.35294117647058,
+                "height": 132.35294117647058,
+                "raw": {
+                  "width": 451.7647058823529,
+                  "height": 451.7647058823529,
+                  "scaleX": 0.5170036764705882,
+                  "scaleY": 0.5170036764705882
+                }
+              }
+            ],
+            "raw": {
+              "width": 451.7647058823529,
+              "height": 451.7647058823529,
+              "scaleX": 0.5170036764705882,
+              "scaleY": 0.5170036764705882
+            }
+          }
+        }
+      },
+      "objects": [
+        {
+          "id": "Button_Rectangle_jzfim",
+          "component": "Button_Rectangle",
+          "transform": {
+            "x": 1581.6313823163132,
+            "y": 962.6899128268989,
+            "width": 211.76470588235287,
+            "height": 65.46333601933917,
+            "layer_index": -1,
+            "opacity": "0.58",
+            "raw": {
+              "width": 211.76470588235287,
+              "height": 65.46333601933917,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#6d1810"
+          },
+          "hover_color": "#6d1810",
+          "hover_opacity": 1,
+          "radius_corner": 0
+        },
+        {
+          "id": "Button_Text_r9oin",
+          "component": "Button_Text",
+          "transform": {
+            "x": 1648.9715039191262,
+            "y": 977.8109389538914,
+            "width": 89.208984375,
+            "height": 33.89999999999999,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 89.208984375,
+              "height": 33.89999999999999,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "text": "Skip >",
+          "text_align": "left",
+          "font": {
+            "font_color": "#ffffff",
+            "font_size": 30,
+            "font_family": "Helvetica",
+            "font_weight": "bold",
+            "font_style": "normal"
+          },
+          "multilanguage": [
+            {
+              "lg_id": "2",
+              "text": "Button"
+            },
+            {
+              "lg_id": "1",
+              "text": "Skip >",
+              "width": 89.208984375,
+              "height": 33.89999999999999
+            },
+            {
+              "lg_id": "18",
+              "text": "Button"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

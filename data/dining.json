@@ -1,0 +1,1661 @@
+{
+  "dm_id": "3",
+  "layout_name": "Demo Alana - Dining",
+  "scene": "Demo Alana - Dining",
+  "base_layout": {
+    "width": "1920",
+    "height": "1080"
+  },
+  "objects": [
+    {
+      "id": "Rectangle_is0iw",
+      "component": "Rectangle",
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080,
+        "layer_index": 0,
+        "opacity": "0.9",
+        "raw": {
+          "width": 1920,
+          "height": 1080,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "radius_corner": 0,
+      "background": {
+        "background_color": "#6d1810",
+        "background_color_from_template": false
+      }
+    },
+    {
+      "id": "Rectangle_8ge1e",
+      "component": "Rectangle",
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "width": 399.99999999999994,
+        "height": 1080,
+        "layer_index": 1,
+        "opacity": "0.81",
+        "raw": {
+          "width": 399.99999999999994,
+          "height": 1080,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "radius_corner": 0,
+      "background": {
+        "background_color": "#000000",
+        "background_color_from_template": false
+      }
+    },
+    {
+      "id": "Rectangle_cqgk9",
+      "component": "Rectangle",
+      "transform": {
+        "x": 0,
+        "y": 917.5474054583658,
+        "width": 396.6184707219411,
+        "height": 162.45259454163437,
+        "layer_index": 2,
+        "opacity": 1,
+        "raw": {
+          "width": 396.6184707219411,
+          "height": 162.45259454163437,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "radius_corner": 0,
+      "background": {
+        "background_color": "#2e2e2e",
+        "background_color_from_template": false
+      }
+    },
+    {
+      "id": "ButtonGrid_whyav",
+      "component": "ButtonGrid",
+      "transform": {
+        "x": 0,
+        "y": 150.0000000000002,
+        "width": 403.4329500492496,
+        "height": 695.2913274687659,
+        "layer_index": 3,
+        "opacity": 0,
+        "raw": {
+          "width": 403.4329500492496,
+          "height": 695.2913274687659,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "button_grid_id": "ButtonGrid_whyav",
+      "order": 2,
+      "layout": "fixed_column_only",
+      "horizontal_alignment": "left",
+      "vertical_alignment": "top",
+      "column": "1",
+      "row": 3,
+      "item_width": 399.99999999999994,
+      "item_height": 75,
+      "item_horizontal_gap": 9.999999999999995,
+      "item_vertical_gap": 4.999999999999997,
+      "scroll_horizontal_offset": 0,
+      "scroll_vertical_offset": 0,
+      "content_type": "dining_items",
+      "parameter_source": "button_grid",
+      "parameter_source_value": 1,
+      "item_data": "%dining/item%",
+      "item_config": {
+        "is_enable_name_text": true,
+        "is_enable_desc_text": false,
+        "is_enable_price_text": false,
+        "is_enable_qty_text": false,
+        "is_enable_qty_rect": false,
+        "is_enable_image": false,
+        "is_enable_text_1": false,
+        "is_enable_text_2": false,
+        "is_enable_text_3": false,
+        "string_name_text": "%dining/item/name%",
+        "string_desc_text": "%dining/item/description%",
+        "string_price_text": "%dining/item/price%",
+        "string_qty_text": "%dining/item/qty%",
+        "string_image": "%dining/item/image%",
+        "string_text_1": "",
+        "string_text_2": "",
+        "string_text_3": ""
+      },
+      "item_component": {
+        "rectangle": {
+          "transform": {
+            "x": 0,
+            "y": 0,
+            "width": 399.99999999999994,
+            "height": 75,
+            "opacity": 1,
+            "raw": {
+              "width": 399.99999999999994,
+              "height": 75,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#000000"
+          },
+          "hover_color_from_template": true,
+          "hover_color": "#000000",
+          "hover_opacity": 1,
+          "radius_corner": 0
+        },
+        "name_text": {
+          "transform": {
+            "x": 31.362378778207354,
+            "y": 19.08651116706397,
+            "width": 351.62713328911684,
+            "height": 44.989633465222276,
+            "opacity": 1,
+            "raw": {
+              "width": 351.62713328911684,
+              "height": 44.989633465222276,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "%dining/item/name%",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "desc_text": {
+          "transform": {
+            "x": 12,
+            "y": 49,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "%dining/item/description%",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "price_text": {
+          "transform": {
+            "x": 12,
+            "y": 49,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "%dining/item/price%",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "qty_text": {
+          "transform": {
+            "x": 12,
+            "y": 135,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "%dining/item/qty%",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "qty_rect": {
+          "transform": {
+            "x": 0,
+            "y": 0,
+            "width": 35.99999999999999,
+            "height": 35.99999999999999,
+            "opacity": 1,
+            "raw": {
+              "width": 35.99999999999999,
+              "height": 35.99999999999999,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#d27a0a"
+          },
+          "hover_color_from_template": false,
+          "hover_color": "#000000",
+          "hover_opacity": 1,
+          "radius_corner": 0
+        },
+        "image": {
+          "transform": {
+            "x": 99.99999999999999,
+            "y": 0,
+            "width": 99.99999999999999,
+            "height": 75,
+            "opacity": 1,
+            "raw": {
+              "width": 99.99999999999999,
+              "height": 75,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "string_dynamic": "%dining/item/image%",
+          "radius_corner": 0
+        },
+        "text_1": {
+          "transform": {
+            "x": 12,
+            "y": 115,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "text_2": {
+          "transform": {
+            "x": 12,
+            "y": 140,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "text_3": {
+          "transform": {
+            "x": 12,
+            "y": 165,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        }
+      },
+      "action_id": "select_grid",
+      "action_parameter": {
+        "menu": "3",
+        "gridOrder": ""
+      }
+    },
+    {
+      "id": "ButtonGrid_Preview_knfj2",
+      "component": "ButtonGrid_Preview",
+      "transform": {
+        "x": 0,
+        "y": 150.00000000000026,
+        "width": 399.99999999999994,
+        "height": 715,
+        "layer_index": 4,
+        "opacity": 1,
+        "raw": {
+          "width": 399.99999999999994,
+          "height": 715,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      }
+    },
+    {
+      "id": "ButtonGrid_qjh1t",
+      "component": "ButtonGrid",
+      "transform": {
+        "x": 430.69086735848316,
+        "y": 46.38450290451581,
+        "width": 1489.3091326415163,
+        "height": 79.99999999999996,
+        "layer_index": 5,
+        "opacity": 0,
+        "raw": {
+          "width": 1489.3091326415163,
+          "height": 79.99999999999996,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "button_grid_id": "ButtonGrid_qjh1t",
+      "order": 1,
+      "layout": "fixed_row_only",
+      "horizontal_alignment": "left",
+      "vertical_alignment": "middle",
+      "column": 1,
+      "row": "1",
+      "item_width": 300,
+      "item_height": 75,
+      "item_horizontal_gap": 9.999999999999995,
+      "item_vertical_gap": 9.999999999999995,
+      "scroll_horizontal_offset": 0,
+      "scroll_vertical_offset": 0,
+      "content_type": "dining_categories",
+      "parameter_source": "menu",
+      "parameter_source_value": "",
+      "item_data": "%dining/category%",
+      "item_config": {
+        "is_enable_name_text": true,
+        "is_enable_desc_text": false,
+        "is_enable_price_text": false,
+        "is_enable_qty_text": false,
+        "is_enable_qty_rect": false,
+        "is_enable_image": false,
+        "is_enable_text_1": false,
+        "is_enable_text_2": false,
+        "is_enable_text_3": false,
+        "string_name_text": "%dining/category/name%",
+        "string_desc_text": "%dining/category/description%",
+        "string_price_text": "",
+        "string_qty_text": "",
+        "string_image": "%dining/category/image%",
+        "string_text_1": "",
+        "string_text_2": "",
+        "string_text_3": ""
+      },
+      "item_component": {
+        "rectangle": {
+          "transform": {
+            "x": -5.0155957818359986e-14,
+            "y": -1.2538989454589997e-14,
+            "width": 300,
+            "height": 75,
+            "opacity": 0.3,
+            "raw": {
+              "width": 300,
+              "height": 75,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#000000"
+          },
+          "hover_color_from_template": true,
+          "hover_color": "#000000",
+          "hover_opacity": 1,
+          "radius_corner": 0.47
+        },
+        "name_text": {
+          "transform": {
+            "x": 17.45193116169491,
+            "y": 10.906577809750857,
+            "width": 276.94969735046726,
+            "height": 35.927983150003605,
+            "opacity": 1,
+            "raw": {
+              "width": 276.94969735046726,
+              "height": 35.927983150003605,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "%dining/category/name%",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "desc_text": {
+          "transform": {
+            "x": 12,
+            "y": 49,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "%dining/category/description%",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "price_text": {
+          "transform": {
+            "x": 12,
+            "y": 49,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "qty_text": {
+          "transform": {
+            "x": 12,
+            "y": 135,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "qty_rect": {
+          "transform": {
+            "x": 0,
+            "y": 0,
+            "width": 35.99999999999999,
+            "height": 35.99999999999999,
+            "opacity": 1,
+            "raw": {
+              "width": 35.99999999999999,
+              "height": 35.99999999999999,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#d27a0a"
+          },
+          "hover_color_from_template": false,
+          "hover_color": "#000000",
+          "hover_opacity": 1,
+          "radius_corner": 0
+        },
+        "image": {
+          "transform": {
+            "x": 99.99999999999999,
+            "y": 0,
+            "width": 99.99999999999999,
+            "height": 75,
+            "opacity": 1,
+            "raw": {
+              "width": 99.99999999999999,
+              "height": 75,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "string_dynamic": "%dining/category/image%",
+          "radius_corner": 0
+        },
+        "text_1": {
+          "transform": {
+            "x": 12,
+            "y": 115,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "text_2": {
+          "transform": {
+            "x": 12,
+            "y": 140,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        },
+        "text_3": {
+          "transform": {
+            "x": 12,
+            "y": 165,
+            "width": 280,
+            "height": 25.999999999999993,
+            "opacity": 1,
+            "raw": {
+              "width": 280,
+              "height": 25.999999999999993,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "scroll_direction": "Horizontal",
+          "scroll_speed": 100,
+          "text": "",
+          "text_align": "left",
+          "font": {
+            "font_color": "#FFFFFF",
+            "font_size": 31.999999999999993,
+            "font_family": "Helvetica",
+            "font_opacity": 1,
+            "font_weight": "normal",
+            "font_style": "normal"
+          }
+        }
+      },
+      "action_id": "select_grid",
+      "action_parameter": {
+        "menu": "3",
+        "gridOrder": "2"
+      }
+    },
+    {
+      "id": "ButtonGrid_Preview_nprz3",
+      "component": "ButtonGrid_Preview",
+      "transform": {
+        "x": 430.690867358483,
+        "y": 46.384502904515806,
+        "width": 1622.0916370440477,
+        "height": 75.00000000000001,
+        "layer_index": 6,
+        "opacity": 1,
+        "raw": {
+          "width": 1622.0916370440477,
+          "height": 75.00000000000001,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      }
+    },
+    {
+      "id": "Image_uxr21",
+      "component": "Image",
+      "transform": {
+        "x": 404.7958459147114,
+        "y": 149.99999999999994,
+        "width": 1515.2041540852886,
+        "height": 690.1055996844556,
+        "layer_index": 7,
+        "opacity": 1,
+        "raw": {
+          "width": 2823.529411764706,
+          "height": 2823.529411764706,
+          "scaleX": 0.9470025963033054,
+          "scaleY": 0.43131599980278473
+        }
+      },
+      "source": "%dining/item/image%",
+      "string_dynamic": "%dining/item/image%",
+      "parameter_source": "button_grid",
+      "parameter_source_value": "2",
+      "scale_type": "center_crop",
+      "radius_corner": 0,
+      "multilanguage": [
+        {
+          "lg_id": "1",
+          "source": "placeholder/placeholder_dynamic_image.png?v=1",
+          "stringDynamic": "%dining/item/image%",
+          "parameterSource": "button_grid",
+          "parameterSourceValue": "2",
+          "width": 1515.2041540852886,
+          "height": 690.1055996844556,
+          "raw": {
+            "width": 2823.529411764706,
+            "height": 2823.529411764706,
+            "scaleX": 0.9470025963033054,
+            "scaleY": 0.43131599980278473
+          }
+        }
+      ]
+    },
+    {
+      "id": "Text_us6lk",
+      "component": "Text",
+      "transform": {
+        "x": 34.07239663654239,
+        "y": 55.89621127497309,
+        "width": 333.46874999999994,
+        "height": 54.23999999999999,
+        "layer_index": 8,
+        "opacity": 1,
+        "raw": {
+          "width": 333.46874999999994,
+          "height": 54.23999999999999,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "text": "In-Room Dining",
+      "text_align": "left",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 48,
+        "font_family": "Helvetica",
+        "font_weight": "normal",
+        "font_style": "normal"
+      },
+      "multilanguage": [
+        {
+          "lg_id": "1",
+          "text": "In-Room Dining",
+          "width": 333.46874999999994,
+          "height": 54.23999999999999
+        }
+      ]
+    },
+    {
+      "id": "TextDynamic_54cgj",
+      "component": "TextDynamic",
+      "transform": {
+        "x": 436.8511216516949,
+        "y": 912.3576917047669,
+        "width": 1021.4632282649055,
+        "height": 151.0651919590163,
+        "layer_index": 9,
+        "opacity": 1,
+        "raw": {
+          "width": 1021.4632282649055,
+          "height": 151.0651919590163,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "scroll_direction": "Vertical",
+      "scroll_speed": 100,
+      "parameter_source": "button_grid",
+      "parameter_source_value": "2",
+      "text": "%dining/item/description%",
+      "text_align": "left",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 30,
+        "font_family": "Helvetica",
+        "font_opacity": 1,
+        "font_weight": "normal",
+        "font_style": "normal"
+      },
+      "metadata": {
+        "textDynamicId": "TextDynamic_54cgj",
+        "layerIndex": 9,
+        "scrollDirection": "Vertical",
+        "scrollSpeed": 100,
+        "parameterSource": "button_grid",
+        "parameterSourceValue": "2",
+        "multilanguage": [
+          {
+            "lg_id": "1",
+            "text": "%dining/item/description%",
+            "width": 1021.4632282649055,
+            "height": 151.0651919590163
+          }
+        ]
+      },
+      "multilanguage": [
+        {
+          "lg_id": "1",
+          "text": "%dining/item/description%",
+          "width": 1021.4632282649055,
+          "height": 151.0651919590163
+        }
+      ]
+    },
+    {
+      "id": "TextDynamic_9mvu7",
+      "component": "TextDynamic",
+      "transform": {
+        "x": 1514.1930804005292,
+        "y": 861.4844247966345,
+        "width": 377.1861064247747,
+        "height": 38.54117647058823,
+        "layer_index": 10,
+        "opacity": 1,
+        "raw": {
+          "width": 377.1861064247747,
+          "height": 38.54117647058823,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "scroll_direction": "Horizontal",
+      "scroll_speed": 100,
+      "parameter_source": "button_grid",
+      "parameter_source_value": "2",
+      "text": "%dining/item/price%",
+      "text_align": "right",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 31.999999999999993,
+        "font_family": "Helvetica",
+        "font_opacity": 1,
+        "font_weight": "bold",
+        "font_style": "normal"
+      },
+      "metadata": {
+        "textDynamicId": "TextDynamic_9mvu7",
+        "layerIndex": 10,
+        "scrollDirection": "Horizontal",
+        "scrollSpeed": 100,
+        "parameterSource": "button_grid",
+        "parameterSourceValue": "2",
+        "multilanguage": [
+          {
+            "lg_id": "1",
+            "text": "%dining/item/price%",
+            "width": 377.1861064247747,
+            "height": 38.54117647058823
+          }
+        ]
+      },
+      "multilanguage": [
+        {
+          "lg_id": "1",
+          "text": "%dining/item/price%",
+          "width": 377.1861064247747,
+          "height": 38.54117647058823
+        }
+      ]
+    },
+    {
+      "id": "Button_govkm",
+      "component": "Button",
+      "transform": {
+        "x": 0,
+        "y": 988.4401612217462,
+        "width": 395.2555748564794,
+        "height": 91.55983877825386,
+        "layer_index": 31,
+        "opacity": 1,
+        "raw": {
+          "width": 395.2555748564794,
+          "height": 91.55983877825386,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "group_id": "Button_govkm",
+      "menu": {
+        "dm_id": "15",
+        "dm_name": "Disney+"
+      },
+      "language": {
+        "lg_id": "1",
+        "lg_name": "Indonesian"
+      },
+      "is_enable_text": true,
+      "is_enable_image": true,
+      "scroll_x": true,
+      "scroll_y": true,
+      "action_id": "submit_dining_order",
+      "action_parameter": {
+        "menu": "15",
+        "fixedMenu": "tv_channel",
+        "categories": [],
+        "custom": "",
+        "app": "20",
+        "image": "",
+        "channel": "",
+        "language": "1",
+        "gridOrder": "",
+        "url": "",
+        "appParamType": "none"
+      },
+      "is_action_compatible": true,
+      "metadata": {
+        "groupId": "Button_govkm",
+        "layerIndex": 11,
+        "dmId": "15",
+        "dmName": "Disney+",
+        "lgId": "1",
+        "lgName": "Indonesian",
+        "isEnableText": true,
+        "isEnableImage": true,
+        "scrollX": true,
+        "scrollY": true,
+        "actionId": "submit_dining_order",
+        "actionParameter": {
+          "menu": "15",
+          "fixedMenu": "tv_channel",
+          "categories": [],
+          "custom": "",
+          "app": "20",
+          "image": "",
+          "channel": "",
+          "language": "1",
+          "gridOrder": "",
+          "url": "",
+          "appParamType": "none"
+        },
+        "isActionCompatible": true,
+        "temp": {
+          "buttonText": {
+            "id": null,
+            "xRelative": null,
+            "yRelative": null,
+            "text": null,
+            "fontSize": null,
+            "fontColor": null,
+            "fontFamily": null,
+            "textAlign": null
+          },
+          "buttonImage": {
+            "id": null,
+            "source": null,
+            "stringDynamic": null,
+            "parameterSource": null,
+            "parameterSourceValue": null,
+            "xRelative": null,
+            "yRelative": null,
+            "width": null,
+            "height": null,
+            "scaleX": null,
+            "scaleY": null
+          }
+        }
+      },
+      "objects": [
+        {
+          "id": "Button_Rectangle_vq09r",
+          "component": "Button_Rectangle",
+          "transform": {
+            "x": 0,
+            "y": 988.4401612217462,
+            "width": 395.2555748564794,
+            "height": 91.55983877825386,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 395.2555748564794,
+              "height": 91.55983877825386,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#38c3ff"
+          },
+          "hover_color_from_template": true,
+          "hover_color": "#000000",
+          "hover_opacity": 1,
+          "radius_corner": 0
+        },
+        {
+          "id": "Button_Image_wvj1a",
+          "component": "Button_Image",
+          "transform": {
+            "x": 13.917043966696307,
+            "y": 1003.1092312746412,
+            "width": 63.257546463170065,
+            "height": 63.257546463170065,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 451.7647058823529,
+              "height": 451.7647058823529,
+              "scaleX": 0.24709979087175807,
+              "scaleY": 0.24709979087175807
+            }
+          },
+          "radius_corner": 0,
+          "source": "media/icon/png/checkout.png",
+          "multilanguage": [
+            {
+              "lg_id": "1",
+              "source": "placeholder/placeholder_button_image.png",
+              "stringDynamic": null,
+              "parameterSource": "menu",
+              "parameterSourceValue": "",
+              "width": 63.257546463170065,
+              "height": 63.257546463170065,
+              "raw": {
+                "width": 451.7647058823529,
+                "height": 451.7647058823529,
+                "scaleX": 0.24709979087175807,
+                "scaleY": 0.24709979087175807
+              }
+            }
+          ]
+        },
+        {
+          "id": "Button_Text_hmyd4",
+          "component": "Button_Text",
+          "transform": {
+            "x": 115.88796486792374,
+            "y": 1022.7520112537356,
+            "width": 320.068359375,
+            "height": 33.89999999999999,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 170.068359375,
+              "height": 33.89999999999999,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "text": "Order Dining",
+          "text_align": "left",
+          "font": {
+            "font_color": "#ffffff",
+            "font_size": 30,
+            "font_family": "Helvetica",
+            "font_weight": "normal",
+            "font_style": "normal"
+          },
+          "multilanguage": [
+            {
+              "lg_id": "1",
+              "text": "Order Dining",
+              "width": 170.068359375,
+              "height": 33.89999999999999
+            }
+          ]
+        }
+      ],
+      "parameter_source": "menu",
+      "parameter_source_value": ""
+    },
+    {
+      "id": "Button_stw0m",
+      "component": "Button",
+      "transform": {
+        "x": 1824.917563853208,
+        "y": 938.4351137259162,
+        "width": 66.9762023354363,
+        "height": 66.9762023354367,
+        "layer_index": 12,
+        "opacity": 1,
+        "raw": {
+          "width": 66.9762023354363,
+          "height": 66.9762023354367,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "group_id": "Button_stw0m",
+      "menu": {
+        "dm_id": "15",
+        "dm_name": "Disney+"
+      },
+      "language": {
+        "lg_id": "1",
+        "lg_name": "Indonesian"
+      },
+      "is_enable_text": true,
+      "is_enable_image": false,
+      "scroll_x": true,
+      "scroll_y": true,
+      "action_id": "add_dining_menu",
+      "action_parameter": {
+        "menu": "15",
+        "fixedMenu": "tv_channel",
+        "categories": [],
+        "custom": "",
+        "app": "20",
+        "image": "",
+        "channel": "",
+        "language": "1",
+        "gridOrder": "",
+        "url": "",
+        "appParamType": "none"
+      },
+      "is_action_compatible": true,
+      "metadata": {
+        "groupId": "Button_stw0m",
+        "layerIndex": 12,
+        "dmId": "15",
+        "dmName": "Disney+",
+        "lgId": "1",
+        "lgName": "Indonesian",
+        "isEnableText": true,
+        "isEnableImage": false,
+        "scrollX": true,
+        "scrollY": true,
+        "actionId": "open_fixed_menu",
+        "actionParameter": {
+          "menu": "15",
+          "fixedMenu": "tv_channel",
+          "categories": [],
+          "custom": "",
+          "app": "20",
+          "image": "",
+          "channel": "",
+          "language": "1",
+          "gridOrder": "",
+          "url": "",
+          "appParamType": "none"
+        },
+        "isActionCompatible": true,
+        "temp": {
+          "buttonText": {
+            "id": null,
+            "xRelative": null,
+            "yRelative": null,
+            "text": null,
+            "fontSize": null,
+            "fontColor": null,
+            "fontFamily": null,
+            "textAlign": null
+          },
+          "buttonImage": {
+            "id": "Button_Image_bint1",
+            "xRelative": 17.15422732359723,
+            "yRelative": 8.950031647094203,
+            "source": "placeholder/placeholder_button_image.png",
+            "stringDynamic": null,
+            "parameterSource": "menu",
+            "parameterSourceValue": "",
+            "width": 132.35294117647058,
+            "height": 132.35294117647058,
+            "scaleX": 0.21850663200913586,
+            "scaleY": 0.21850663200913586,
+            "radiusCorner": 0,
+            "multilanguage": [
+              {
+                "lg_id": "1",
+                "source": "placeholder/placeholder_button_image.png",
+                "stringDynamic": null,
+                "parameterSource": "menu",
+                "parameterSourceValue": "",
+                "width": 132.35294117647058,
+                "height": 132.35294117647058,
+                "raw": {
+                  "width": 451.7647058823529,
+                  "height": 451.7647058823529,
+                  "scaleX": 0.5170036764705882,
+                  "scaleY": 0.5170036764705882
+                }
+              }
+            ],
+            "raw": {
+              "width": 451.7647058823529,
+              "height": 451.7647058823529,
+              "scaleX": 0.5170036764705882,
+              "scaleY": 0.5170036764705882
+            }
+          }
+        }
+      },
+      "objects": [
+        {
+          "id": "Button_Rectangle_1ziuh",
+          "component": "Button_Rectangle",
+          "transform": {
+            "x": 1824.917563853208,
+            "y": 938.4351137259162,
+            "width": 66.97620233543658,
+            "height": 66.97620233543658,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 66.97620233543658,
+              "height": 66.97620233543658,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#38c3ff"
+          },
+          "hover_color_from_template": true,
+          "hover_color": "#000000",
+          "hover_opacity": 1,
+          "radius_corner": 0
+        },
+        {
+          "id": "Button_Text_u5mp4",
+          "component": "Button_Text",
+          "transform": {
+            "x": 1847.7362162847628,
+            "y": 946.4683071095814,
+            "width": 23.359374999999986,
+            "height": 45.19999999999997,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 23.359374999999986,
+              "height": 45.19999999999997,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "text": "+",
+          "text_align": "left",
+          "font": {
+            "font_color": "#ffffff",
+            "font_size": 39.99999999999998,
+            "font_family": "Helvetica",
+            "font_weight": "bold",
+            "font_style": "normal"
+          },
+          "multilanguage": [
+            {
+              "lg_id": "1",
+              "text": "+",
+              "width": 23.359374999999986,
+              "height": 45.19999999999997
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Button_tfkk9",
+      "component": "Button",
+      "transform": {
+        "x": 1590.4201472425277,
+        "y": 939.7136626971385,
+        "width": 67.7647058823531,
+        "height": 67.7647058823531,
+        "layer_index": 13,
+        "opacity": 1,
+        "raw": {
+          "width": 67.7647058823531,
+          "height": 67.7647058823531,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "group_id": "Button_tfkk9",
+      "menu": {
+        "dm_id": "15",
+        "dm_name": "Disney+"
+      },
+      "language": {
+        "lg_id": "1",
+        "lg_name": "Indonesian"
+      },
+      "is_enable_text": true,
+      "is_enable_image": false,
+      "scroll_x": true,
+      "scroll_y": true,
+      "action_id": "subtract_dining_menu",
+      "action_parameter": {
+        "menu": "15",
+        "fixedMenu": "tv_channel",
+        "categories": [],
+        "custom": "",
+        "app": "20",
+        "image": "",
+        "channel": "",
+        "language": "1",
+        "gridOrder": "",
+        "url": "",
+        "appParamType": "none"
+      },
+      "is_action_compatible": true,
+      "metadata": {
+        "groupId": "Button_tfkk9",
+        "layerIndex": 13,
+        "dmId": "15",
+        "dmName": "Disney+",
+        "lgId": "1",
+        "lgName": "Indonesian",
+        "isEnableText": true,
+        "isEnableImage": false,
+        "scrollX": true,
+        "scrollY": true,
+        "actionId": "subtract_dining_menu",
+        "actionParameter": {
+          "menu": "15",
+          "fixedMenu": "tv_channel",
+          "categories": [],
+          "custom": "",
+          "app": "20",
+          "image": "",
+          "channel": "",
+          "language": "1",
+          "gridOrder": "",
+          "url": "",
+          "appParamType": "none"
+        },
+        "isActionCompatible": true,
+        "temp": {
+          "buttonText": {
+            "id": null,
+            "xRelative": null,
+            "yRelative": null,
+            "text": null,
+            "fontSize": null,
+            "fontColor": null,
+            "fontFamily": null,
+            "textAlign": null
+          },
+          "buttonImage": {
+            "id": "Button_Image_bint1",
+            "xRelative": 17.15422732359723,
+            "yRelative": 8.950031647094203,
+            "source": "placeholder/placeholder_button_image.png",
+            "stringDynamic": null,
+            "parameterSource": "menu",
+            "parameterSourceValue": "",
+            "width": 132.35294117647058,
+            "height": 132.35294117647058,
+            "scaleX": 0.21850663200913586,
+            "scaleY": 0.21850663200913586,
+            "radiusCorner": 0,
+            "multilanguage": [
+              {
+                "lg_id": "1",
+                "source": "placeholder/placeholder_button_image.png",
+                "stringDynamic": null,
+                "parameterSource": "menu",
+                "parameterSourceValue": "",
+                "width": 132.35294117647058,
+                "height": 132.35294117647058,
+                "raw": {
+                  "width": 451.7647058823529,
+                  "height": 451.7647058823529,
+                  "scaleX": 0.5170036764705882,
+                  "scaleY": 0.5170036764705882
+                }
+              }
+            ],
+            "raw": {
+              "width": 451.7647058823529,
+              "height": 451.7647058823529,
+              "scaleX": 0.5170036764705882,
+              "scaleY": 0.5170036764705882
+            }
+          }
+        }
+      },
+      "objects": [
+        {
+          "id": "Button_Rectangle_t5d2j",
+          "component": "Button_Rectangle",
+          "transform": {
+            "x": 1590.4201472425277,
+            "y": 939.7136626971385,
+            "width": 67.76470588235294,
+            "height": 67.76470588235294,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 67.76470588235294,
+              "height": 67.76470588235294,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "background": {
+            "background_color": "#38c3ff"
+          },
+          "hover_color_from_template": true,
+          "hover_color": "#000000",
+          "hover_opacity": 1,
+          "radius_corner": 0
+        },
+        {
+          "id": "Button_Text_0evx6",
+          "component": "Button_Text",
+          "transform": {
+            "x": 1615.9635860322746,
+            "y": 949.124043746887,
+            "width": 13.320312499999993,
+            "height": 45.19999999999997,
+            "layer_index": -1,
+            "opacity": 1,
+            "raw": {
+              "width": 13.320312499999993,
+              "height": 45.19999999999997,
+              "scaleX": 1.7647058823529411,
+              "scaleY": 1.7647058823529411
+            }
+          },
+          "text": "-",
+          "text_align": "left",
+          "font": {
+            "font_color": "#ffffff",
+            "font_size": 39.99999999999998,
+            "font_family": "Helvetica",
+            "font_weight": "bold",
+            "font_style": "normal"
+          },
+          "multilanguage": [
+            {
+              "lg_id": "1",
+              "text": "-",
+              "width": 13.320312499999993,
+              "height": 45.19999999999997
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TextDynamic_yky21",
+      "component": "TextDynamic",
+      "transform": {
+        "x": 1704.982727692578,
+        "y": 946.1771722089618,
+        "width": 72.24925474205841,
+        "height": 54.75013867034448,
+        "layer_index": 14,
+        "opacity": 1,
+        "raw": {
+          "width": 72.24925474205841,
+          "height": 54.75013867034448,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "scroll_direction": "Horizontal",
+      "scroll_speed": 100,
+      "parameter_source": "menu",
+      "parameter_source_value": "",
+      "text": "%dining/quantity%",
+      "text_align": "left",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 30,
+        "font_family": "Helvetica",
+        "font_opacity": 1,
+        "font_weight": "normal",
+        "font_style": "normal"
+      },
+      "metadata": {
+        "textDynamicId": "TextDynamic_yky21",
+        "layerIndex": 14,
+        "scrollDirection": "Horizontal",
+        "scrollSpeed": 100,
+        "parameterSource": "menu",
+        "parameterSourceValue": "",
+        "multilanguage": [
+          {
+            "lg_id": "1",
+            "text": "%dining/quantity%",
+            "width": 72.24925474205841,
+            "height": 54.75013867034448
+          }
+        ]
+      },
+      "multilanguage": [
+        {
+          "lg_id": "1",
+          "text": "%dining/quantity%",
+          "width": 72.24925474205841,
+          "height": 54.75013867034448
+        }
+      ]
+    },
+    {
+      "id": "TextDynamic_bh429",
+      "component": "TextDynamic",
+      "transform": {
+        "x": 436.84964923920415,
+        "y": 857.4734637581647,
+        "width": 377.1861064247747,
+        "height": 38.54117647058823,
+        "layer_index": 15,
+        "opacity": 1,
+        "raw": {
+          "width": 377.1861064247747,
+          "height": 38.54117647058823,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "scroll_direction": "Horizontal",
+      "scroll_speed": 100,
+      "parameter_source": "button_grid",
+      "parameter_source_value": "2",
+      "text": "%dining/item/name%",
+      "text_align": "left",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 35.99999999999999,
+        "font_family": "Helvetica",
+        "font_opacity": 1,
+        "font_weight": "bold",
+        "font_style": "normal"
+      },
+      "metadata": {
+        "textDynamicId": "TextDynamic_bh429",
+        "layerIndex": 15,
+        "scrollDirection": "Horizontal",
+        "scrollSpeed": 100,
+        "parameterSource": "button_grid",
+        "parameterSourceValue": "2",
+        "multilanguage": [
+          {
+            "lg_id": "1",
+            "text": "%dining/item/name%",
+            "width": 377.1861064247747,
+            "height": 38.54117647058823
+          }
+        ]
+      },
+      "multilanguage": [
+        {
+          "lg_id": "1",
+          "text": "%dining/item/name%",
+          "width": 377.1861064247747,
+          "height": 38.54117647058823
+        }
+      ]
+    },
+    {
+      "id": "TextDynamic_4y7u3",
+      "component": "TextDynamic",
+      "transform": {
+        "x": 17.733420123590385,
+        "y": 935.2705943992104,
+        "width": 362.53030021281046,
+        "height": 40.899666786565895,
+        "layer_index": 16,
+        "opacity": 1,
+        "raw": {
+          "width": 362.53030021281046,
+          "height": 40.899666786565895,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "scroll_direction": "Horizontal",
+      "scroll_speed": 100,
+      "parameter_source": "menu",
+      "parameter_source_value": "",
+      "text": "Total: %dining/total_price%",
+      "text_align": "left",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 30,
+        "font_family": "Helvetica",
+        "font_opacity": 1,
+        "font_weight": "normal",
+        "font_style": "normal"
+      },
+      "metadata": {
+        "textDynamicId": "TextDynamic_4y7u3",
+        "layerIndex": 16,
+        "scrollDirection": "Horizontal",
+        "scrollSpeed": 100,
+        "parameterSource": "menu",
+        "parameterSourceValue": "",
+        "multilanguage": [
+          {
+            "lg_id": "1",
+            "text": "Total: %dining/total_price%",
+            "width": 362.53030021281046,
+            "height": 40.899666786565895
+          }
+        ]
+      },
+      "multilanguage": [
+        {
+          "lg_id": "1",
+          "text": "Total: %dining/total_price%",
+          "width": 362.53030021281046,
+          "height": 40.899666786565895
+        }
+      ]
+    }
+  ]
+}

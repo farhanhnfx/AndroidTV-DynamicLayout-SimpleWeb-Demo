@@ -1,0 +1,46 @@
+{
+  "dm_id": "83",
+  "layout_name": "Alana Promotion",
+  "scene": "Alana Promotion",
+  "base_layout": {
+    "width": "1920",
+    "height": "1080"
+  },
+  "objects": [
+    {
+      "id": "Text_kflxw",
+      "component": "Text",
+      "transform": {
+        "x": 676.4705882352937,
+        "y": 58.8235294117647,
+        "width": 500,
+        "height": 100,
+        "layer_index": 0,
+        "opacity": 1,
+        "raw": {
+          "width": 500,
+          "height": 100,
+          "scaleX": 1.7647058823529411,
+          "scaleY": 1.7647058823529411
+        }
+      },
+      "text": "ROBERT",
+      "text_align": "center",
+      "font": {
+        "font_color": "#ffffff",
+        "font_size": 64,
+        "font_family": "Roboto",
+        "font_weight": "bold",
+        "font_style": "normal"
+      },
+      "multilanguage": [
+        {
+          "lg_id": "1",
+          "text": "New Text",
+          "width": 300,
+          "height": 50
+        }
+      ]
+    }
+  ]
+}
