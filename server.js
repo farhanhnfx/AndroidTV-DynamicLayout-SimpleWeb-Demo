@@ -328,6 +328,7 @@ const Redis   = require('ioredis');
 const app = express();
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/media', express.static(path.join(__dirname, 'media')));
 
 // ── Redis client ──────────────────────────────────────────────────────────────
 const redis = new Redis(process.env.REDIS_URL, {
