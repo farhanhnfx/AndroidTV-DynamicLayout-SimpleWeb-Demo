@@ -629,7 +629,7 @@ app.get('/api/items/:type', async (req, res) => {
     const data = await kvGet(`sdui:items:${req.params.type}`)
                  ?? readFallback(`${req.params.type}.json`)
                  ?? { results: { items: [] } };
-    res.json(data);
+    res.status(200).json({ status: true, message: `${req.params.type} Information`, ...data});
   } catch (e) {
     res.status(500).json({ status: false, message: e.message });
   }
